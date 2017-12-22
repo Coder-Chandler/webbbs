@@ -11,9 +11,9 @@ application = app.app
 
 """
 建立一个软连接
-ln -s /var/www/bbs/bbs.conf /etc/supervisor/conf.d/bbs.conf
+ln -s /root/WebProjects/webbbs/bbs.conf /etc/supervisor/conf.d/bbs.conf
 
-ln -s /var/www/bbs/bbs.nginx /etc/nginx/sites-enabled/bbs
+ln -s /root/WebProjects/webbbs/bbs.nginx /etc/nginx/sites-enabled/webbbs
 
 
 
