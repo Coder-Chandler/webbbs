@@ -15,5 +15,12 @@
     <div>
         {{ user.password }}
     </div>
+    <title>Upload new File</title>
+    <h1>Upload new File</h1>
+    <form method=post action={{ url_for(".add_img") }} enctype=multipart/form-data>
+      <p><input type=file name=file>
+         <input type=submit value=Upload>
+    </form>
+
 </body>
 </html>

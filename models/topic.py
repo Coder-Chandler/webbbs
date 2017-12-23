@@ -1,5 +1,6 @@
 import time
 from models import Model
+from models.user import User
 
 
 class Topic(Model):
@@ -29,3 +30,8 @@ class Topic(Model):
         from .board import Board
         m = Board.find(self.board_id)
         return m
+
+    def user(self):
+        u = User.find(id = self.user_id)
+        return u
+
