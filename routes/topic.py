@@ -18,18 +18,20 @@ main = Blueprint('topic', __name__)
 
 import uuid
 csrf_tokens = dict()
-
 @main.route("/")
 def index():
     # board_id = 2
     board_id = int(request.args.get('board_id', -1))
     if board_id == -1:
-        ms = Topic.all()
+        #ms = Topic.cache_all()
+        ms = Topic.all_delay()
     else:
+        #ms = Topic.cache_find(board_id)
         ms = Topic.find_all(board_id=board_id)
     token = str(uuid.uuid4())
     u = current_user()
-    csrf_tokens['token'] = u.id
+    csrf_tokens[token] = u.id
+    print('csrf_tokens', csrf_tokens)
     bs = Board.all()
     return render_template("topic/index.html", ms=ms, token=token, bs=bs)
 
@@ -46,20 +48,25 @@ def add():
     form = request.form
     u = current_user()
     m = Topic.new(form, user_id=u.id)
+    # for i in range(1000):
+    #     m = Topic.new(form, user_id=u.id)
     return redirect(url_for('.detail', id=m.id))
 
 
 @main.route("/delete")
 def delete():
-    id = int(request.args.get('id'))
+    topic_id = int(request.args.get('id'))
+    print(id)
     token = request.args.get('token')
+    print(token)
+    print(csrf_tokens)
     u = current_user()
     # 判断 token 是否是我们给的
     if token in csrf_tokens and csrf_tokens[token] == u.id:
         csrf_tokens.pop(token)
         if u is not None:
-            print('删除 topic 用户是', u, id)
-            Topic.delete(id)
+            print('删除 topic 用户是', u, topic_id)
+            Topic.delete(topic_id)
             return redirect(url_for('.index'))
         else:
             abort(404)

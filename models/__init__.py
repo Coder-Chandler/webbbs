@@ -1,7 +1,6 @@
 import json
 import time
 from utils import log
-from path import basedir
 
 
 def save(data, path):
@@ -40,7 +39,7 @@ class Model(object):
         所以我们可以得到 class 的名字
         """
         classname = cls.__name__
-        path = str(basedir)+'/data/{}.txt'.format(classname)
+        path = 'data/{}.txt'.format(classname)
         return path
 
     @classmethod
@@ -188,5 +187,3 @@ class Model(object):
         l = [m.__dict__ for m in models]
         path = self.db_path()
         save(l, path)
-
-

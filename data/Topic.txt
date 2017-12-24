@@ -1,42 +1,12 @@
 [
   {
-    "user_id": 1,
     "id": 1,
-    "content": "gua",
-    "ut": 1490966885,
-    "title": "hello",
-    "board_id": 2,
-    "ct": 1490966885,
-    "views": 1
-  },
-  {
+    "views": 10,
+    "title": "test",
+    "content": "test",
+    "ct": 1491201817,
+    "ut": 1491201817,
     "user_id": 1,
-    "id": 2,
-    "content": "...",
-    "ut": 1490967064,
-    "title": "hello gua",
-    "board_id": 1,
-    "ct": 1490967064,
-    "views": 1
-  },
-  {
-    "user_id": 5,
-    "id": 3,
-    "content": "呵呵哒",
-    "ut": 1513954280,
-    "title": "呵呵哒",
-    "board_id": 1,
-    "ct": 1513954280,
-    "views": 3
-  },
-  {
-    "user_id": 5,
-    "id": 4,
-    "content": "wwwwwwwww\r\n",
-    "ut": 1513967341,
-    "title": "wwwwwwwww",
-    "board_id": 1,
-    "ct": 1513967341,
-    "views": 1
+    "board_id": 1
   }
 ]

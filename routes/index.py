@@ -1,4 +1,3 @@
-import os
 from flask import (
     render_template,
     request,
@@ -12,6 +11,8 @@ from flask import (
 from werkzeug.utils import secure_filename
 from models.user import User
 from config import user_file_director
+import os
+
 from utils import log
 
 main = Blueprint('index', __name__)
@@ -45,15 +46,19 @@ def index():
 @main.route("/register", methods=['POST'])
 def register():
     form = request.form
+    # print('用户注册的form', form)
     # 用类函数来判断
     u = User.register(form)
+    # print('注册的用户', u)
     return redirect(url_for('.index'))
 
 
 @main.route("/login", methods=['POST'])
 def login():
     form = request.form
+    # print('用户登录的form', form)
     u = User.validate_login(form)
+    # print(u)
     if u is None:
         # 转到 topic.index 页面
         return redirect(url_for('topic.index'))
@@ -85,7 +90,7 @@ def add_img():
     u = current_user()
 
     if u is None:
-        return redirect(url_for('.profile'))
+        return redirect(url_for(".profile"))
 
     if 'file' not in request.files:
         return redirect(request.url)
@@ -94,15 +99,15 @@ def add_img():
     if file.filename == '':
         return redirect(request.url)
 
-    if allow_file(file.filename) is not False:
+    if allow_file(file.filename):
         filename = secure_filename(file.filename)
         file.save(os.path.join(user_file_director, filename))
         u.user_image = filename
         u.save()
 
-    return redirect(url_for('.profile'))
+    return redirect(url_for(".profile"))
 
 
-@main.route('/uploads/<filename>')
+@main.route("/uploads/<filename>")
 def uploads(filename):
     return send_from_directory(user_file_director, filename)

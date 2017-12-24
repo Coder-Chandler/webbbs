@@ -10,20 +10,20 @@ from routes import *
 
 from models.board import Board
 
-
 main = Blueprint('board', __name__)
 
 
-@main.route("/admin")
+@main.route("/")
 def index():
-    return render_template('board/admin_index.html')
-    ...
+    u = current_user()
+    print(u.role)
+    return render_template('board/admin_index.html', user=u)
 
 
 @main.route("/add", methods=["POST"])
 def add():
     form = request.form
     u = current_user()
-    m = Board.new(form)
+    if u.role == 'admin':
+        m = Board.new(form)
     return redirect(url_for('topic.index'))
-
