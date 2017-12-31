@@ -39,35 +39,59 @@ def current_user():
 
 @main.route("/")
 def index():
+    log('index 的 request ->', request)
     u = current_user()
-    return render_template("index.html", user=u)
+    return redirect(url_for('topic.index'))
+
+
+@main.route("/signin")
+def signin():
+    log('index 的 request ->', request)
+    u = current_user()
+    return render_template("login.html", user=u)
+
+
+@main.route("/signup")
+def signup():
+    log('index 的 request ->', request)
+    u = current_user()
+    return render_template("register.html", user=u)
 
 
 @main.route("/register", methods=['POST'])
 def register():
     form = request.form
+    log('注册的用户form ->', form)
     # print('用户注册的form', form)
     # 用类函数来判断
     u = User.register(form)
     # print('注册的用户', u)
-    return redirect(url_for('.index'))
+    return redirect(url_for('.signin'))
 
 
 @main.route("/login", methods=['POST'])
 def login():
     form = request.form
-    # print('用户登录的form', form)
+    print(form)
+    log('用户登录的form ->', form)
     u = User.validate_login(form)
-    # print(u)
+    print(u)
+    log('登录用户验证 ->', form)
     if u is None:
         # 转到 topic.index 页面
-        return redirect(url_for('topic.index'))
+        return render_template('404.html')
     else:
         # session 中写入 user_id
         session['user_id'] = u.id
         # 设置 cookie 有效期为 永久
         session.permanent = True
         return redirect(url_for('topic.index'))
+
+
+@main.route("/logout")
+def logout():
+    session['user_id'] = -1
+    return redirect(url_for('.index'))
 
 
 @main.route('/profile')
@@ -110,4 +134,6 @@ def add_img():
 
 @main.route("/uploads/<filename>")
 def uploads(filename):
+    if filename is None:
+        return redirect(url_for(".profile"))
     return send_from_directory(user_file_director, filename)

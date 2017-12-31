@@ -22,7 +22,7 @@ class Reply(Mongua):
         ('content', str, ''),
         ('topic_id', int, -1),
         ('receiver_id', int, -1),
-        ('user_id', int, -1)
+        ('user_id', int, -1),
     ]
 
     def user(self):
@@ -33,3 +33,4 @@ class Reply(Mongua):
     def set_user_id(self, user_id):
         self.user_id = user_id
         self.save()
+

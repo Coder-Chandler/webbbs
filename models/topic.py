@@ -46,7 +46,7 @@ class Topic(Mongua):
         ('title', str, -1),
         ('user_id', int, -1),
         ('board_id', int, -1),
-        ('views', int, 0)
+        ('views', int, 0),
     ]
 
     should_update_all = True
@@ -62,6 +62,8 @@ class Topic(Mongua):
             if not key.startswith('_'):
                 d[key] = getattr(self, key)
         return json.dumps(d)
+
+
 
     @classmethod
     def from_json(cls, j):
@@ -103,6 +105,19 @@ class Topic(Mongua):
         from .reply import Reply
         ms = Reply.find_all(topic_id=self.id)
         return ms
+
+    def reply(self):
+        from .reply import Reply
+        ms = Reply.find_all(topic_id=self.id)
+        return ms[-1]
+
+    def replyuser(self):
+        from .reply import Reply
+        ms = Reply.find_all(topic_id=self.id)
+        recent_reply = ms[-1]
+        recent_reply_userid = recent_reply.user_id
+        user = User.find(id=recent_reply_userid)
+        return user
 
     def board(self):
         from .board import Board

@@ -67,9 +67,6 @@ class User(Mongua):
         现在只有两个属性 username 和 password
         """
 
-    def __init__(self):
-        self.user_image = 'default.png'
-
     def salted_password(self, password, salt='$!@><?>HUI&DWQa`'):
         import hashlib
         def sha256(ascii_str):
@@ -103,7 +100,9 @@ class User(Mongua):
     def validate_login(cls, form):
         u = User()
         u.username = form.get("username", '')
+        print(u.username)
         u.password = form.get("password", "")
+        print(u.password)
         user = User.find_by(username=u.username)
         if user is not None and user.password == u.salted_password(u.password):
             return user

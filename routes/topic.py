@@ -11,6 +11,7 @@ from routes import *
 
 from models.topic import Topic
 from models.board import Board
+from models.reply import Reply
 
 
 main = Blueprint('topic', __name__)
@@ -21,6 +22,7 @@ csrf_tokens = dict()
 @main.route("/")
 def index():
     # board_id = 2
+    log('request ->', request)
     board_id = int(request.args.get('board_id', -1))
     if board_id == -1:
         #ms = Topic.cache_all()
@@ -28,25 +30,35 @@ def index():
     else:
         #ms = Topic.cache_find(board_id)
         ms = Topic.find_all(board_id=board_id)
-    token = str(uuid.uuid4())
     u = current_user()
-    csrf_tokens[token] = u.id
-    print('csrf_tokens', csrf_tokens)
     bs = Board.all()
-    return render_template("topic/index.html", ms=ms, token=token, bs=bs)
+    print(ms)
+    return render_template("topic/index.html", ms=ms, bs=bs, user=u)
 
 
 @main.route('/<int:id>')
 def detail(id):
     m = Topic.get(id)
+    token = str(uuid.uuid4())
+    u = current_user()
+    if u is not None:
+        csrf_tokens[token] = u.id
+        log('csrf_tokens', csrf_tokens)
+    else:
+        csrf_tokens[token] = None
+        log('csrf_tokens', csrf_tokens)
     # 传递 topic 的所有 reply 到 页面中
-    return render_template("topic/detail.html", topic=m)
+    return render_template("topic/detail.html", topic=m, token=token)
 
 
 @main.route("/add", methods=["POST"])
 def add():
     form = request.form
+    log('add form ->', form)
     u = current_user()
+    print(u)
+    if u is None:
+        return redirect(url_for('.index'))
     m = Topic.new(form, user_id=u.id)
     # for i in range(1000):
     #     m = Topic.new(form, user_id=u.id)
@@ -55,23 +67,29 @@ def add():
 
 @main.route("/delete")
 def delete():
-    topic_id = int(request.args.get('id'))
+    id = int(request.args.get('id'))
     print(id)
     token = request.args.get('token')
-    print(token)
-    print(csrf_tokens)
+    print('token ->', token)
+    print('csrf_tokens ->', csrf_tokens)
+    log('token ->', token)
+    log('csrf_tokens ->', csrf_tokens)
     u = current_user()
+    topic = Topic.get(id)
+    print(topic)
     # 判断 token 是否是我们给的
-    if token in csrf_tokens and csrf_tokens[token] == u.id:
+    if token in csrf_tokens and csrf_tokens[token] == topic.user_id:
         csrf_tokens.pop(token)
         if u is not None:
-            print('删除 topic 用户是', u, topic_id)
-            Topic.delete(topic_id)
+            log('删除 topic 用户是', u, id)
+            log('要删除的topic', Topic.get(id))
+            topic = Topic.get(id)
+            Topic.delete(topic)
             return redirect(url_for('.index'))
         else:
-            abort(404)
+            return render_template('404.html')
     else:
-        abort(403)
+        return render_template('403.html')
 
 
 @main.route("/new")

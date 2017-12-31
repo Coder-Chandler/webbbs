@@ -1,10 +1,14 @@
 import time
 from pymongo import MongoClient
+from utils import log
 mongua = MongoClient()
 
 
 def timestamp():
-    return int(time.time())
+    format = '%Y-%m-%d %H:%M:%S'
+    value = time.localtime(int(time.time()))
+    ct = time.strftime(format, value)
+    return str(ct)
 
 
 def next_id(name):
@@ -36,8 +40,8 @@ class Mongua(object):
         ('id', int, -1),
         ('type', str, ''),
         ('deleted', bool, False),
-        ('created_time', int, 0),
-        ('updated_time', int, 0),
+        ('created_time', str, 0),
+        ('updated_time', str, 0),
     ]
 
     @classmethod
@@ -89,7 +93,7 @@ class Mongua(object):
         # 写入默认数据
         m.id = next_id(name)
         # print('debug new id ', m.id)
-        ts = int(time.time())
+        ts = str(timestamp())
         m.created_time = ts
         m.updated_time = ts
         # m.deleted = False
@@ -141,7 +145,7 @@ class Mongua(object):
         """
         name = cls.__name__
         # TODO 过滤掉被删除的元素
-        # kwargs['deleted'] = False
+        kwargs['deleted'] = False
         flag_sort = '__sort'
         sort = kwargs.pop(flag_sort, None)
         ds = mongua.db[name].find(kwargs)
@@ -224,14 +228,16 @@ class Mongua(object):
 
     def delete(self):
         name = self.__class__.__name__
+        log('删除name', name)
         query = {
-            'id': id,
+            'id': self.id,
         }
-        print('query', query)
         values = {
             'deleted': True
         }
-        mongua.db[name].update_one(query, values)
+        log('query', query)
+        log('mongo Collection', mongua.db[name])
+        mongua.db[name].update_one(query, {'$set':values})
         # self.deleted = True
         # self.save()
 

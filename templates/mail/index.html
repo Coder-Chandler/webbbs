@@ -3,27 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/lib/editor/editor.css">
+    <link rel="stylesheet" href="/static/lib/webuploader/webuploader.css">
+    <script src="/static/lib/jquery-3.0.0.min.js"></script>
+    <script src="/static/lib/markdownit.js"></script>
+    <script src="/static/lib/webuploader/webuploader.withoutimage.js"></script>
+    <script src="/static/lib/editor/editor.js"></script>
+    <script src="/static/lib/editor/ext.js"></script>
 </head>
 <body>
-<p>发送邮件</p>
-<form method="post" action={{ url_for('.add') }}>
-<input type="text" name="content" placeholder="content">
-<input type="text" name="title" placeholder="title">
-<input type="text" name="receiver_id" placeholder="to_id">
-<button type="submit">提交邮件</button>
-</form>
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="/">
+                <img class="navbarlogo" src="/static/image/navbarlogo.png">
+            </a>
+            {#     <form id="search_form" class="navbar-search" action="/search">#}
+            {#      <input type="text" id="q" name="q" class="search-query span3" value="" />#}
+            {#     </form>#}
+            {% if user == None %}
+                <ul class="nav pull-right">
+                    <li><a href="/">首页</a></li>
+                    <li><a href="/signup">注册</a></li>
+                    <li><a href="/signin">登录</a></li>
+                </ul>
+            {% else %}
+                <ul class="nav pull-right">
+                    <li><a href="/">首页</a></li>
 
-<p>收到邮件</p>
-{% for r in receives%}
-    <div>
-    <a href = {{ url_for(".view", id = r.id) }} > {{ r.title }}</a>
+                    <li>
+                        <a href="/mail/">
+
+                            未读消息
+                        </a>
+                    </li>
+
+                    <li><a href="/profile">设置</a></li>
+                    <li>
+                        <a href="/logout" rel="nofollow">退出</a>
+                    </li>
+
+                </ul>
+            {% endif %}
+            <a class="btn btn-navbar" id="responsive-sidebar-trigger"> <span class="icon-bar"></span> <span
+                    class="icon-bar"></span> <span class="icon-bar"></span> </a>
+        </div>
     </div>
-{% endfor %}
-<p>发送的邮件</p>
-{% for s in sends%}
-    <div>
-    <a href = {{ url_for(".view", id = s.id) }} > {{ s.title }}</a>
+</div>
+<div class="panel">
+    <div class="header">
+        <ul class="breadcrumb">
+            <li><a href="/">主页</a><span class="divider">/</span></li>
+            <li class="col_fade">发送邮件</li>
+        </ul>
     </div>
-{% endfor %}
+    <div class="inner">
+        <form method="post" action={{ url_for('.add') }}>
+            <input type="text" name="content" placeholder="content">
+            <input type="text" name="title" placeholder="title">
+            <input type="text" name="receiver_id" placeholder="收件人(用户名)">
+            <button type="submit">提交邮件</button>
+        </form>
+    </div>
+
+
+</div>
+<div id="content">
+    <div class="panel">
+        <div class="header">
+            <ul class="breadcrumb">
+
+                <li class="col_fade">我的邮件</li>
+            </ul>
+        </div>
+
+        <div class="inner">
+            {% for r in receives %}
+                <div>
+                    <a href={{ url_for(".view", id = r.id) }}> {{ r.title }}</a>
+                </div>
+            {% endfor %}
+        </div>
+
+    </div>
+    <div class="panel">
+        <div class="header">
+            <span class="col_fade">已发送邮件</span>
+        </div>
+
+        <div class="inner">
+            {% for s in sends %}
+                <div>
+                    <a href={{ url_for(".view", id = s.id) }}> {{ s.title }}</a>
+                </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</div>
+{#<p>收到邮件</p>#}
+{#{% for r in receives %}#}
+{#    <div>#}
+{#        <a href={{ url_for(".view", id = r.id) }}> {{ r.title }}</a>#}
+{#    </div>#}
+{#{% endfor %}#}
+{#<p>发送的邮件</p>#}
+{#{% for s in sends %}#}
+{#    <div>#}
+{#        <a href={{ url_for(".view", id = s.id) }}> {{ s.title }}</a>#}
+{#    </div>#}
+{#{% endfor %}#}
 </body>
 </html>

@@ -16,14 +16,17 @@ main = Blueprint('board', __name__)
 @main.route("/")
 def index():
     u = current_user()
-    print(u.role)
+    log(u.role)
     return render_template('board/admin_index.html', user=u)
 
 
 @main.route("/add", methods=["POST"])
 def add():
     form = request.form
+    log('添加的板块 ->', form)
     u = current_user()
-    if u.role == 'admin':
+    if u is not None and u.role == 'admin':
         m = Board.new(form)
-    return redirect(url_for('topic.index'))
+        return redirect(url_for('topic.index'))
+    else:
+        return redirect(url_for('topic.index'))

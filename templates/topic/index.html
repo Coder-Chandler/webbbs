@@ -14,12 +14,58 @@
     <script src="/static/lib/editor/ext.js"></script>
 </head>
 <body>
+<html>
+<head></head>
+<body>
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="/">
+                <img class="navbarlogo" src="/static/image/navbarlogo.png">
+            </a>
+            {#     <form id="search_form" class="navbar-search" action="/search">#}
+            {#      <input type="text" id="q" name="q" class="search-query span3" value="" />#}
+            {#     </form>#}
+            {% if user == None %}
+                <ul class="nav pull-right">
+                    <li><a href="/">首页</a></li>
+                    <li><a href="/signup">注册</a></li>
+                    <li><a href="/signin">登录</a></li>
+                </ul>
+            {% else %}
+                <ul class="nav pull-right">
+                    <li><a href="/">首页</a></li>
+
+                    <li>
+                        <a href="/mail/">
+
+                            未读消息
+                        </a>
+                    </li>
+
+                    <li><a href="/profile">设置</a></li>
+                    <li>
+                        <a href="/logout" rel="nofollow">退出</a>
+                    </li>
+
+                </ul>
+            {% endif %}
+            <a class="btn btn-navbar" id="responsive-sidebar-trigger"> <span class="icon-bar"></span> <span
+                    class="icon-bar"></span> <span class="icon-bar"></span> </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
 <div id="main">
     <div id="sidebar">
         <div class="panel">
             <div class="inner">
                 <a href="/topic/new" class="create_topic_btn">
                     <span class="span-success">发布话题</span>
+                </a>
+                <a href="/topic/new" class="create_topic_btn">
+                    <span class="span-success">群口相声</span>
                 </a>
             </div>
         </div>
@@ -33,33 +79,43 @@
                 </a>
 
                 {% for b in bs %}
-                <a href="/topic?board_id={{ b.id }}"
-                   class="topic-tab current-tab">
-                    {{ b.title }}
-                </a>
+                    <a href="/topic?board_id={{ b.id }}"
+                       class="topic-tab current-tab">
+                        {{ b.title }}
+                    </a>
                 {% endfor %}
             </div>
             <div class="inner post">
                 <div class="topic_list">
                     {% for t in ms %}
-                    <div class="cell">
-                        <div class="topic_title_wrapper">
+                        <div class="cell">
+                            <div class="topic_title_wrapper">
 
-                            <a class="user_avatar pull-left">
-                                 <img src={{ '/uploads/' + t.user().user_image + '?v=3&amp;s=120' }}
-                            title="atian25"/>
-                            </a>
+                                <a class="user_avatar pull-left">
+                                    {% if t.user().user_image %}
+                                        <img src={{ '/uploads/' + t.user().user_image + '?v=3&amp;s=120' }}title="atian25"/>
+                                    {% else %}
+                                        <img src='{{ url_for('static', filename='image/default.jpg') }}'>
+                                    {% endif %}
+                                </a>
 
-                            <a class="topic_title" href="{{ url_for('topic.detail', id=t.id) }}">
-                                {{ t.title }}
-                            </a>
-                            <span>{{ t.replies() | count }} / {{ t.views }}</span>
-                            <a class="topic_title" href="{{ url_for('topic.delete', id=t.id, token=token) }}">
-                                删除
-                            </a>
+                                <a class="topic_title" href="{{ url_for('topic.detail', id=t.id) }}">
+                                    {{ t.title }}
+                                </a>
+                                <span class="topiclist-tab">{{ t.board().title }}</span>
+                                <span>{{ t.replies() | count }}评论 / {{ t.views }}次浏览</span>
+                                {#                                <a class="topic_title" href="{{ url_for('topic.delete', id=t.id, token=token) }}">#}
+                                {#                                    删除#}
+                                {#                                </a>#}
+                                <a class="last_time pull-right">
 
+                                    <span class="last_active_time">最近评论 {{ t.replyuser().username }}</span>
+                                    <span class="last_active_time">{{ t.reply().created_time }}</span>
+
+                                </a>
+
+                            </div>
                         </div>
-                    </div>
                     {% endfor %}
                 </div>
             </div>
@@ -67,11 +123,12 @@
     </div>
 </div>
 <script>
-  (function () {
-    var editor = new Editor();
-    editor.render($('.editor')[0]);
-  })();
+    (function () {
+        var editor = new Editor();
+        editor.render($('.editor')[0]);
+    })();
 
 </script>
 </body>
 </html>
+
