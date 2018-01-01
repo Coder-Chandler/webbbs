@@ -19,7 +19,7 @@ def add():
     form = request.form
     u = current_user()
     if u is not None:
-        log('DEBUG回复 ->', form)
+        log('DEBUG 回复 ->', form)
         m = Reply.new(form)
         m.set_user_id(u.id)
         return redirect(url_for('topic.detail', id=m.topic_id))
