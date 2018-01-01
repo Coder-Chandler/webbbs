@@ -31,7 +31,7 @@ def index():
         send_mail = Mail.find_all(sender_id=u.id)
         received_mail = Mail.find_all(receiver_id=u.id)
 
-        return render_template("mail/index.html", sends=send_mail, receives=received_mail)
+        return render_template("mail/index.html", sends=send_mail, receives=received_mail, user=u)
     else:
         return redirect(url_for('topic.index'))
 
@@ -43,7 +43,7 @@ def view(id):
         if current_user().id == mail.receiver_id:
             mail.mark_read()
         if current_user().id in [mail.receiver_id, mail.sender_id]:
-            return render_template("mail/detail.html", mail=mail)
+            return render_template("mail/detail.html", mail=mail, user=current_user())
         else:
             return redirect(url_for(".index"))
     else:

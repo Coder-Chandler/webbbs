@@ -72,10 +72,8 @@ def register():
 @main.route("/login", methods=['POST'])
 def login():
     form = request.form
-    print(form)
     log('用户登录的form ->', form)
     u = User.validate_login(form)
-    print(u)
     log('登录用户验证 ->', form)
     if u is None:
         # 转到 topic.index 页面
@@ -109,10 +107,9 @@ def allow_file(filename):
     return suffix in accept_user_file_type
 
 
-@main.route('/addimg', methods=["POST"])
+@main.route('/add_img', methods=["POST"])
 def add_img():
     u = current_user()
-
     if u is None:
         return redirect(url_for(".profile"))
 

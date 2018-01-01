@@ -154,7 +154,7 @@ a.light:hover {
   background-color: #f6f6f6;
   border-radius: 3px 3px 0 0;
 }
-.panel .header.topic_header {
+.content .panel .header.topic_header {
   background-color: white;
 }
 .panel .moon {

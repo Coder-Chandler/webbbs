@@ -32,7 +32,6 @@ def index():
         ms = Topic.find_all(board_id=board_id)
     u = current_user()
     bs = Board.all()
-    print(ms)
     return render_template("topic/index.html", ms=ms, bs=bs, user=u)
 
 
@@ -48,7 +47,7 @@ def detail(id):
         csrf_tokens[token] = None
         log('csrf_tokens', csrf_tokens)
     # 传递 topic 的所有 reply 到 页面中
-    return render_template("topic/detail.html", topic=m, token=token)
+    return render_template("topic/detail.html", topic=m, token=token, user=u)
 
 
 @main.route("/add", methods=["POST"])
@@ -56,7 +55,6 @@ def add():
     form = request.form
     log('add form ->', form)
     u = current_user()
-    print(u)
     if u is None:
         return redirect(url_for('.index'))
     m = Topic.new(form, user_id=u.id)
@@ -68,15 +66,11 @@ def add():
 @main.route("/delete")
 def delete():
     id = int(request.args.get('id'))
-    print(id)
     token = request.args.get('token')
-    print('token ->', token)
-    print('csrf_tokens ->', csrf_tokens)
     log('token ->', token)
     log('csrf_tokens ->', csrf_tokens)
     u = current_user()
     topic = Topic.get(id)
-    print(topic)
     # 判断 token 是否是我们给的
     if token in csrf_tokens and csrf_tokens[token] == topic.user_id:
         csrf_tokens.pop(token)
