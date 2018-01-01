@@ -28,8 +28,8 @@ def index():
         ms = Topic.cache_all()
         # ms = Topic.all_delay()
     else:
-        ms = Topic.cache_find(board_id)
-        # ms = Topic.find_all(board_id=board_id)
+        # ms = Topic.cache_find(board_id)
+        ms = Topic.find_all(board_id=board_id)
     u = current_user()
     bs = Board.all()
     return render_template("topic/index.html", ms=ms, bs=bs, user=u)
