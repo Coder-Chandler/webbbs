@@ -114,9 +114,11 @@ class Topic(Mongua):
     def replyuser(self):
         from .reply import Reply
         ms = Reply.find_all(topic_id=self.id)
-        recent_reply = ms[-1]
-        recent_reply_userid = recent_reply.user_id
-        user = User.find(id=recent_reply_userid)
+        user = None
+        if ms != []:
+            recent_reply = ms[-1]
+            recent_reply_userid = recent_reply.user_id
+            user = User.find(id=recent_reply_userid)
         return user
 
     def board(self):

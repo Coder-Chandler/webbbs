@@ -112,9 +112,10 @@
                                 {#                                    删除#}
                                 {#                                </a>#}
                                 <a class="last_time pull-right">
-
+                                    {% if t.replyuser() and t.reply() %}
                                     <span class="last_active_time">最近评论 {{ t.replyuser().username }}</span>
                                     <span class="last_active_time">{{ t.reply().created_time }}</span>
+                                    {% endif %}
 
                                 </a>
 
