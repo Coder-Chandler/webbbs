@@ -1,7 +1,8 @@
 import time
 from pymongo import MongoClient
 from utils import log
-mongua = MongoClient()
+mongua = MongoClient('mongodb://%s:%s@%s' % ("chandler", "910929xiao!@", '127.0.0.1'))
+
 
 
 def timestamp():
