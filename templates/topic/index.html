@@ -43,7 +43,7 @@
                         </a>
                     </li>
 
-{#                    <li><a href="/profile">设置</a></li>#}
+                    {#                    <li><a href="/profile">设置</a></li>#}
                     <li>
                         <a href="/logout" rel="nofollow">退出</a>
                     </li>
@@ -93,35 +93,66 @@
                 <div class="topic_list">
                     {% for t in ms %}
                         <div class="cell">
-                            <div class="topic_title_wrapper">
+                            {% if t.user() %}
+                                <div class="topic_title_wrapper">
 
-                                <a class="user_avatar pull-left">
-                                    {% if t.user().user_image %}
-                                        <img src={{ '/uploads/' + t.user().user_image + '?v=3&amp;s=120' }}title="atian25"/>
-                                    {% else %}
-                                        <img src='{{ url_for('static', filename='image/default.jpg') }}'>
-                                    {% endif %}
-                                </a>
+                                    <a class="user_avatar pull-left">
+                                        {% if t.user().user_image %}
+                                            <img src={{ '/uploads/' + t.user().user_image + '?v=3&amp;s=120' }}title="atian25"/>
+                                        {% else %}
+                                            <img src='{{ url_for('static', filename='image/default.jpg') }}'>
+                                        {% endif %}
+                                    </a>
 
-                                <a class="topic_title" href="{{ url_for('topic.detail', id=t.id) }}">
-                                    {{ t.title }}
-                                </a>
-                                <span class="topiclist-tab">{{ t.board().title }}</span>
-                                <span>{{ t.replies() | count }}评论 / {{ t.views }}次浏览</span>
-                                {#                                <a class="topic_title" href="{{ url_for('topic.delete', id=t.id, token=token) }}">#}
-                                {#                                    删除#}
-                                {#                                </a>#}
-                                <a class="last_time pull-right">
-                                    {% if t.replyuser() and t.reply() %}
-                                    <span class="last_active_time">最近评论 {{ t.replyuser().username }}</span>
-                                    <span class="last_active_time">{{ t.reply().created_time }}</span>
-                                    {% endif %}
+                                    <a class="topic_title" href="{{ url_for('topic.detail', id=t.id) }}">
+                                        {{ t.title }}
+                                    </a>
+                                    <span class="topiclist-tab">{{ t.board().title }}</span>
+                                    <span>{{ t.replies() | count }}评论 / {{ t.views }}次浏览</span>
+                                    {#                                <a class="topic_title" href="{{ url_for('topic.delete', id=t.id, token=token) }}">#}
+                                    {#                                    删除#}
+                                    {#                                </a>#}
+                                    <a class="last_time pull-right">
+                                        {% if t.replyuser() and t.reply() %}
+                                            <span class="last_active_time">最近评论 {{ t.replyuser().username }}</span>
+                                            <span class="last_active_time">{{ t.reply().created_time }}</span>
+                                        {% endif %}
 
-                                </a>
+                                    </a>
 
-                            </div>
+                                </div>
+                            {% endif %}
                         </div>
                     {% endfor %}
+                </div>
+                <div class="pagination" current_page="1">
+                    <ul>
+
+
+                        <li class="disabled"><a>«</a></li>
+
+
+                        <li class="disabled active"><a>1</a></li>
+
+
+                        <li><a href="/?tab=all&amp;page=2">2</a></li>
+
+
+                        <li><a href="/?tab=all&amp;page=3">3</a></li>
+
+
+                        <li><a href="/?tab=all&amp;page=4">4</a></li>
+
+
+                        <li><a href="/?tab=all&amp;page=5">5</a></li>
+
+
+                        <li><a>...</a></li>
+
+
+                        <li><a href="/?tab=all&amp;page=101">»</a></li>
+
+                    </ul>
                 </div>
             </div>
         </div>

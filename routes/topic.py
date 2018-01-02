@@ -25,8 +25,8 @@ def index():
     log('request ->', request)
     board_id = int(request.args.get('board_id', -1))
     if board_id == -1:
-        ms = Topic.cache_all()
-        # ms = Topic.all_delay()
+        # ms = Topic.cache_all()
+        ms = Topic.all_delay()
     else:
         # ms = Topic.cache_find(board_id)
         ms = Topic.find_all(board_id=board_id)
@@ -37,7 +37,9 @@ def index():
 
 @main.route('/<int:id>')
 def detail(id):
+    print(id)
     m = Topic.get(id)
+    print(m)
     token = str(uuid.uuid4())
     u = current_user()
     if u is not None:
@@ -79,7 +81,7 @@ def delete():
             log('要删除的topic', Topic.get(id))
             topic = Topic.get(id)
             Topic.delete(topic)
-            return redirect(url_for('.index'))
+            return redirect(url_for('topic.index'))
         else:
             return render_template('404.html')
     else:
