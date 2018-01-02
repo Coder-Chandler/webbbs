@@ -2,8 +2,7 @@ import time
 from pymongo import MongoClient
 from utils import log
 import urllib
-mongo_uri = "mongodb://chandler:" + urllib.parse.quote_plus("910929xiao!@") + "@127.0.0.1:27017/"
-mongua = MongoClient(mongo_uri)
+mongua = MongoClient()
 
 
 
