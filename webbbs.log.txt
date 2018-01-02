@@ -1,0 +1,5088 @@
+06:03:22 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+06:03:22 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+06:03:25 current_user的id -> -1
+06:03:25 current_user -> None
+06:03:41 index 的 request -> <Request 'http://www.9ycc.cc:2000/signin' [GET]>
+06:03:47 用户登录的form -> ImmutableMultiDict([('username', 'sss'), ('password', 'sss')])
+06:03:47 登录用户验证 -> ImmutableMultiDict([('username', 'sss'), ('password', 'sss')])
+06:04:54 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+06:05:05 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+06:05:08 current_user的id -> -1
+06:05:08 current_user -> None
+06:06:49 index 的 request -> <Request 'http://9ycc.cc:2000/' [GET]>
+06:06:53 request -> <Request 'http://9ycc.cc:2000/topic/' [GET]>
+06:06:56 current_user的id -> -1
+06:06:56 current_user -> None
+06:11:48 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+06:11:49 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+06:11:52 current_user的id -> -1
+06:11:52 current_user -> None
+06:12:54 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+06:12:57 current_user的id -> -1
+06:12:57 current_user -> None
+06:13:03 index 的 request -> <Request 'http://www.9ycc.cc:2000/signin' [GET]>
+06:13:06 index 的 request -> <Request 'http://www.9ycc.cc:2000/signup' [GET]>
+06:13:19 注册的用户form -> ImmutableMultiDict([('username', 'chandler'), ('password', 'chandler')])
+06:13:20 index 的 request -> <Request 'http://www.9ycc.cc:2000/signin' [GET]>
+06:13:29 用户登录的form -> ImmutableMultiDict([('username', 'chandler'), ('password', 'chandler')])
+06:13:29 登录用户验证 -> ImmutableMultiDict([('username', 'chandler'), ('password', 'chandler')])
+06:13:29 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+06:13:32 current_user的id -> 1
+06:13:32 current_user -> <User: 
+  _id = 5a49d17f5557c01039b58dfc
+  role = user
+  id = 1
+  updated_time = 2018-01-01 06:13:19
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  type = user
+  user_image = 
+  created_time = 2018-01-01 06:13:19
+  username = chandler
+  deleted = False
+>
+06:24:52 request -> <Request 'http://9ycc.cc:2000/topic/' [GET]>
+06:24:55 current_user的id -> -1
+06:24:55 current_user -> None
+06:26:02 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+06:26:05 current_user的id -> -1
+06:26:05 current_user -> None
+09:49:07 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+09:49:10 current_user的id -> 1
+09:49:10 current_user -> <User: 
+  _id = 5a49d17f5557c01039b58dfc
+  role = user
+  id = 1
+  updated_time = 2018-01-01 06:13:19
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  type = user
+  user_image = 
+  created_time = 2018-01-01 06:13:19
+  username = chandler
+  deleted = False
+>
+09:49:18 current_user的id -> 1
+09:49:18 current_user -> <User: 
+  _id = 5a49d17f5557c01039b58dfc
+  role = user
+  id = 1
+  updated_time = 2018-01-01 06:13:19
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  type = user
+  user_image = 
+  created_time = 2018-01-01 06:13:19
+  username = chandler
+  deleted = False
+>
+11:46:38 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+11:46:38 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+11:46:41 current_user的id -> 1
+11:46:41 current_user -> <User: 
+  user_image = 
+  updated_time = 2018-01-01 06:13:19
+  type = user
+  role = user
+  deleted = False
+  created_time = 2018-01-01 06:13:19
+  username = chandler
+  id = 1
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  _id = 5a49d17f5557c01039b58dfc
+>
+11:52:03 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+11:52:06 current_user的id -> 1
+11:52:06 current_user -> <User: 
+  user_image = 
+  username = chandler
+  id = 1
+  created_time = 2018-01-01 06:13:19
+  type = user
+  updated_time = 2018-01-01 06:13:19
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  deleted = False
+  role = user
+  _id = 5a49d17f5557c01039b58dfc
+>
+11:52:37 current_user的id -> 1
+11:52:37 current_user -> <User: 
+  user_image = 
+  username = chandler
+  id = 1
+  created_time = 2018-01-01 06:13:19
+  type = user
+  updated_time = 2018-01-01 06:13:19
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  deleted = False
+  role = user
+  _id = 5a49d17f5557c01039b58dfc
+>
+12:04:35 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+12:05:06 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:05:09 current_user的id -> 1
+12:05:09 current_user -> <User: 
+  created_time = 2018-01-01 06:13:19
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  id = 1
+  _id = 5a49d17f5557c01039b58dfc
+  updated_time = 2018-01-01 06:13:19
+  deleted = False
+  type = user
+  user_image = 
+  username = chandler
+  role = user
+>
+12:05:09 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:05:09 current_user的id -> 1
+12:05:09 current_user -> <User: 
+  created_time = 2018-01-01 06:13:19
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  id = 1
+  _id = 5a49d17f5557c01039b58dfc
+  updated_time = 2018-01-01 06:13:19
+  deleted = False
+  type = user
+  user_image = 
+  username = chandler
+  role = user
+>
+12:05:16 current_user的id -> 1
+12:05:16 current_user -> <User: 
+  created_time = 2018-01-01 06:13:19
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  id = 1
+  _id = 5a49d17f5557c01039b58dfc
+  updated_time = 2018-01-01 06:13:19
+  deleted = False
+  type = user
+  user_image = 
+  username = chandler
+  role = user
+>
+12:05:18 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+12:05:19 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:05:19 current_user的id -> 1
+12:05:19 current_user -> <User: 
+  created_time = 2018-01-01 06:13:19
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  id = 1
+  _id = 5a49d17f5557c01039b58dfc
+  updated_time = 2018-01-01 06:13:19
+  deleted = False
+  type = user
+  user_image = 
+  username = chandler
+  role = user
+>
+12:05:55 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+12:05:55 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:05:55 current_user的id -> 1
+12:05:55 current_user -> <User: 
+  created_time = 2018-01-01 06:13:19
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  id = 1
+  _id = 5a49d17f5557c01039b58dfc
+  updated_time = 2018-01-01 06:13:19
+  deleted = False
+  type = user
+  user_image = 1478800706828.png
+  username = chandler
+  role = user
+>
+12:05:56 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:05:56 current_user的id -> 1
+12:05:56 current_user -> <User: 
+  created_time = 2018-01-01 06:13:19
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  id = 1
+  _id = 5a49d17f5557c01039b58dfc
+  updated_time = 2018-01-01 06:13:19
+  deleted = False
+  type = user
+  user_image = 1478800706828.png
+  username = chandler
+  role = user
+>
+12:06:24 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+12:06:25 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:06:25 current_user的id -> 5
+12:06:25 current_user -> None
+12:06:34 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+12:06:38 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:06:38 current_user的id -> 1
+12:06:38 current_user -> <User: 
+  created_time = 2018-01-01 06:13:19
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  id = 1
+  _id = 5a49d17f5557c01039b58dfc
+  updated_time = 2018-01-01 06:13:19
+  deleted = False
+  type = user
+  user_image = 1478800706828.png
+  username = chandler
+  role = user
+>
+12:06:38 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:06:38 current_user的id -> 1
+12:06:38 current_user -> <User: 
+  created_time = 2018-01-01 06:13:19
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  id = 1
+  _id = 5a49d17f5557c01039b58dfc
+  updated_time = 2018-01-01 06:13:19
+  deleted = False
+  type = user
+  user_image = 1478800706828.png
+  username = chandler
+  role = user
+>
+12:06:55 index 的 request -> <Request 'http://www.9ycc.cc:2000/signup' [GET]>
+12:06:58 index 的 request -> <Request 'http://www.9ycc.cc:2000/signin' [GET]>
+12:07:06 用户登录的form -> ImmutableMultiDict([('password', '910929xiao!@'), ('username', 'chandler')])
+12:07:06 登录用户验证 -> ImmutableMultiDict([('password', '910929xiao!@'), ('username', 'chandler')])
+12:07:36 index 的 request -> <Request 'http://www.9ycc.cc:2000/signup' [GET]>
+12:07:46 注册的用户form -> ImmutableMultiDict([('password', '910929xiao!@'), ('username', 'chandler')])
+12:07:47 index 的 request -> <Request 'http://www.9ycc.cc:2000/signin' [GET]>
+12:07:54 用户登录的form -> ImmutableMultiDict([('password', '910929xiao!@'), ('username', 'chandler')])
+12:07:54 登录用户验证 -> ImmutableMultiDict([('password', '910929xiao!@'), ('username', 'chandler')])
+12:08:00 用户登录的form -> ImmutableMultiDict([('password', '910929xiao!@'), ('username', 'chandler')])
+12:08:00 登录用户验证 -> ImmutableMultiDict([('password', '910929xiao!@'), ('username', 'chandler')])
+12:08:03 index 的 request -> <Request 'http://www.9ycc.cc:2000/signup' [GET]>
+12:08:08 注册的用户form -> ImmutableMultiDict([('password', 'www'), ('username', 'www')])
+12:08:09 index 的 request -> <Request 'http://www.9ycc.cc:2000/signin' [GET]>
+12:08:13 用户登录的form -> ImmutableMultiDict([('password', 'www'), ('username', 'www')])
+12:08:13 登录用户验证 -> ImmutableMultiDict([('password', 'www'), ('username', 'www')])
+12:08:13 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:08:13 current_user的id -> 2
+12:08:13 current_user -> <User: 
+  created_time = 2018-01-01 12:08:08
+  password = d4d6eef630efe8ea0be9c6feb994b5b7358654f101908f36883d7268fd3f7ea3
+  id = 2
+  _id = 5a4a24a85557c00a1358e40d
+  updated_time = 2018-01-01 12:08:08
+  deleted = False
+  type = user
+  user_image = 
+  username = www
+  role = user
+>
+12:50:30 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:50:33 current_user的id -> 1
+12:50:33 current_user -> <User: 
+  role = user
+  created_time = 2018-01-01 06:13:19
+  id = 1
+  _id = 5a49d17f5557c01039b58dfc
+  username = chandler
+  deleted = False
+  type = user
+  updated_time = 2018-01-01 06:13:19
+  user_image = 1478800706828.png
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+>
+12:51:17 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+12:51:17 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:51:20 current_user的id -> 1
+12:51:20 current_user -> <User: 
+  role = user
+  created_time = 2018-01-01 06:13:19
+  id = 1
+  _id = 5a49d17f5557c01039b58dfc
+  username = chandler
+  deleted = False
+  type = user
+  updated_time = 2018-01-01 06:13:19
+  user_image = 1478800706828.png
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+>
+12:51:37 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+12:51:38 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:51:38 current_user的id -> 1
+12:51:38 current_user -> <User: 
+  role = user
+  created_time = 2018-01-01 06:13:19
+  id = 1
+  _id = 5a49d17f5557c01039b58dfc
+  username = chandler
+  deleted = False
+  type = user
+  updated_time = 2018-01-01 06:13:19
+  user_image = 1478800706828.png
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+>
+12:52:19 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:52:22 current_user的id -> 2
+12:52:22 current_user -> <User: 
+  role = user
+  created_time = 2018-01-01 12:08:08
+  id = 2
+  _id = 5a4a24a85557c00a1358e40d
+  username = www
+  deleted = False
+  type = user
+  updated_time = 2018-01-01 12:08:08
+  user_image = 
+  password = d4d6eef630efe8ea0be9c6feb994b5b7358654f101908f36883d7268fd3f7ea3
+>
+12:52:22 current_user的id -> 1
+12:52:22 current_user -> <User: 
+  role = user
+  created_time = 2018-01-01 06:13:19
+  id = 1
+  _id = 5a49d17f5557c01039b58dfc
+  username = chandler
+  deleted = False
+  type = user
+  updated_time = 2018-01-01 06:13:19
+  user_image = 1478800706828.png
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+>
+12:52:22 current_user的id -> 1
+12:52:22 current_user -> <User: 
+  role = user
+  created_time = 2018-01-01 06:13:19
+  id = 1
+  _id = 5a49d17f5557c01039b58dfc
+  username = chandler
+  deleted = False
+  type = user
+  updated_time = 2018-01-01 06:13:19
+  user_image = 1478800706828.png
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+>
+12:52:34 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:52:34 current_user的id -> 2
+12:52:34 current_user -> <User: 
+  role = user
+  created_time = 2018-01-01 12:08:08
+  id = 2
+  _id = 5a4a24a85557c00a1358e40d
+  username = www
+  deleted = False
+  type = user
+  updated_time = 2018-01-01 12:08:08
+  user_image = 
+  password = d4d6eef630efe8ea0be9c6feb994b5b7358654f101908f36883d7268fd3f7ea3
+>
+12:52:37 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:52:37 current_user的id -> 2
+12:52:37 current_user -> <User: 
+  role = user
+  created_time = 2018-01-01 12:08:08
+  id = 2
+  _id = 5a4a24a85557c00a1358e40d
+  username = www
+  deleted = False
+  type = user
+  updated_time = 2018-01-01 12:08:08
+  user_image = 
+  password = d4d6eef630efe8ea0be9c6feb994b5b7358654f101908f36883d7268fd3f7ea3
+>
+12:52:45 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+12:52:47 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+12:52:47 current_user的id -> 1
+12:52:47 current_user -> <User: 
+  role = user
+  created_time = 2018-01-01 06:13:19
+  id = 1
+  _id = 5a49d17f5557c01039b58dfc
+  username = chandler
+  deleted = False
+  type = user
+  updated_time = 2018-01-01 06:13:19
+  user_image = 1478800706828.png
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+>
+13:08:27 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+13:08:28 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+13:08:28 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+13:08:31 current_user的id -> 2
+13:08:31 current_user -> <User: 
+  role = user
+  created_time = 2018-01-01 12:08:08
+  id = 2
+  _id = 5a4a24a85557c00a1358e40d
+  username = www
+  deleted = False
+  type = user
+  updated_time = 2018-01-01 12:08:08
+  user_image = 
+  password = d4d6eef630efe8ea0be9c6feb994b5b7358654f101908f36883d7268fd3f7ea3
+>
+14:59:40 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+14:59:40 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+14:59:43 current_user的id -> 1
+14:59:43 current_user -> <User: 
+  created_time = 2018-01-01 06:13:19
+  updated_time = 2018-01-01 06:13:19
+  id = 1
+  user_image = 1478800706828.png
+  username = chandler
+  type = user
+  deleted = False
+  _id = 5a49d17f5557c01039b58dfc
+  role = user
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+>
+14:59:43 current_user的id -> 1
+14:59:43 current_user -> <User: 
+  created_time = 2018-01-01 06:13:19
+  updated_time = 2018-01-01 06:13:19
+  id = 1
+  user_image = 1478800706828.png
+  username = chandler
+  type = user
+  deleted = False
+  _id = 5a49d17f5557c01039b58dfc
+  role = user
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+>
+15:09:55 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+15:09:55 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+15:09:56 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+15:09:59 current_user的id -> 2
+15:09:59 current_user -> <User: 
+  created_time = 2018-01-01 12:08:08
+  updated_time = 2018-01-01 12:08:08
+  id = 2
+  user_image = 
+  username = www
+  type = user
+  deleted = False
+  _id = 5a4a24a85557c00a1358e40d
+  role = user
+  password = d4d6eef630efe8ea0be9c6feb994b5b7358654f101908f36883d7268fd3f7ea3
+>
+15:09:59 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+15:09:59 current_user的id -> 1
+15:09:59 current_user -> <User: 
+  created_time = 2018-01-01 06:13:19
+  updated_time = 2018-01-01 06:13:19
+  id = 1
+  user_image = 1478800706828.png
+  username = chandler
+  type = user
+  deleted = False
+  _id = 5a49d17f5557c01039b58dfc
+  role = user
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+>
+15:26:24 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+15:27:05 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+15:29:30 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+15:29:30 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+15:29:33 current_user的id -> 2
+15:29:33 current_user -> None
+15:35:08 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+15:35:46 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+16:09:25 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+16:09:26 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:09:29 current_user的id -> 2
+16:09:29 current_user -> <User: 
+  type = user
+  deleted = False
+  role = user
+  id = 2
+  user_image = 
+  updated_time = 2018-01-01 12:08:08
+  _id = 5a4a24a85557c00a1358e40d
+  username = www
+  password = d4d6eef630efe8ea0be9c6feb994b5b7358654f101908f36883d7268fd3f7ea3
+  created_time = 2018-01-01 12:08:08
+>
+16:09:37 current_user的id -> 2
+16:09:37 current_user -> <User: 
+  type = user
+  deleted = False
+  role = user
+  id = 2
+  user_image = 
+  updated_time = 2018-01-01 12:08:08
+  _id = 5a4a24a85557c00a1358e40d
+  username = www
+  password = d4d6eef630efe8ea0be9c6feb994b5b7358654f101908f36883d7268fd3f7ea3
+  created_time = 2018-01-01 12:08:08
+>
+16:09:40 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+16:09:40 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:09:40 current_user的id -> 2
+16:09:40 current_user -> <User: 
+  type = user
+  deleted = False
+  role = user
+  id = 2
+  user_image = 
+  updated_time = 2018-01-01 12:08:08
+  _id = 5a4a24a85557c00a1358e40d
+  username = www
+  password = d4d6eef630efe8ea0be9c6feb994b5b7358654f101908f36883d7268fd3f7ea3
+  created_time = 2018-01-01 12:08:08
+>
+16:09:51 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+16:11:25 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:11:28 current_user的id -> 1
+16:11:28 current_user -> <User: 
+  type = user
+  deleted = False
+  role = user
+  id = 1
+  user_image = 1478800706828.png
+  updated_time = 2018-01-01 06:13:19
+  _id = 5a49d17f5557c01039b58dfc
+  username = chandler
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  created_time = 2018-01-01 06:13:19
+>
+16:11:33 current_user的id -> 2
+16:11:33 current_user -> <User: 
+  type = user
+  deleted = False
+  role = user
+  id = 2
+  user_image = 
+  updated_time = 2018-01-01 12:08:08
+  _id = 5a4a24a85557c00a1358e40d
+  username = www
+  password = d4d6eef630efe8ea0be9c6feb994b5b7358654f101908f36883d7268fd3f7ea3
+  created_time = 2018-01-01 12:08:08
+>
+16:11:33 current_user的id -> 2
+16:11:33 current_user -> <User: 
+  type = user
+  deleted = False
+  role = user
+  id = 2
+  user_image = 
+  updated_time = 2018-01-01 12:08:08
+  _id = 5a4a24a85557c00a1358e40d
+  username = www
+  password = d4d6eef630efe8ea0be9c6feb994b5b7358654f101908f36883d7268fd3f7ea3
+  created_time = 2018-01-01 12:08:08
+>
+16:11:52 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+16:11:52 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:11:52 current_user的id -> 1
+16:11:52 current_user -> <User: 
+  type = user
+  deleted = False
+  role = user
+  id = 1
+  user_image = No-Curves-Tape-Art-and-Design1.jpg
+  updated_time = 2018-01-01 06:13:19
+  _id = 5a49d17f5557c01039b58dfc
+  username = chandler
+  password = 5ef2e0cb6566d84d8dc2e4adf07964198f8b050f813f37efea9f8dbfe3725c1e
+  created_time = 2018-01-01 06:13:19
+>
+16:16:51 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+16:16:52 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:16:55 current_user的id -> 2
+16:16:55 current_user -> <User: 
+  deleted = False
+  username = www
+  role = user
+  password = d4d6eef630efe8ea0be9c6feb994b5b7358654f101908f36883d7268fd3f7ea3
+  id = 2
+  type = user
+  _id = 5a4a24a85557c00a1358e40d
+  updated_time = 2018-01-01 12:08:08
+  created_time = 2018-01-01 12:08:08
+  user_image = 
+>
+16:21:24 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+16:21:25 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:21:25 current_user的id -> -1
+16:21:25 current_user -> None
+16:21:26 index 的 request -> <Request 'http://www.9ycc.cc:2000/signup' [GET]>
+16:21:34 注册的用户form -> ImmutableMultiDict([('username', 'chandler'), ('password', '910929xiao!@')])
+16:21:35 index 的 request -> <Request 'http://www.9ycc.cc:2000/signin' [GET]>
+16:21:45 用户登录的form -> ImmutableMultiDict([('username', 'chandler'), ('password', '910929xiao!@')])
+16:21:45 登录用户验证 -> ImmutableMultiDict([('username', 'chandler'), ('password', '910929xiao!@')])
+16:21:46 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:21:46 current_user的id -> 3
+16:21:46 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = user
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:23:14 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:23:14 current_user的id -> 3
+16:23:14 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:23:18 current_user的id -> 3
+16:23:18 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:23:18 admin
+16:23:27 添加的板块 -> ImmutableMultiDict([('title', '文章')])
+16:23:27 current_user的id -> 3
+16:23:27 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:23:28 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:23:28 current_user的id -> 3
+16:23:28 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:23:33 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:23:33 current_user的id -> 3
+16:23:33 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:23:34 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+16:23:37 current_user的id -> 3
+16:23:37 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:23:37 admin
+16:23:47 添加的板块 -> ImmutableMultiDict([('title', '新闻')])
+16:23:47 current_user的id -> 3
+16:23:47 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:23:48 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:23:48 current_user的id -> 3
+16:23:48 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:25:01 current_user的id -> 3
+16:25:01 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:25:01 admin
+16:25:02 current_user的id -> 3
+16:25:02 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:25:02 admin
+16:25:29 添加的板块 -> ImmutableMultiDict([('title', '数据分析')])
+16:25:29 current_user的id -> 3
+16:25:29 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:25:30 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:25:30 current_user的id -> 3
+16:25:30 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:38:10 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+16:38:40 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:38:43 current_user的id -> 1
+16:38:43 current_user -> None
+16:39:05 index 的 request -> <Request 'http://www.9ycc.cc:2000/signin' [GET]>
+16:39:12 用户登录的form -> ImmutableMultiDict([('username', 'chandler'), ('password', '910929xiao!@')])
+16:39:12 登录用户验证 -> ImmutableMultiDict([('username', 'chandler'), ('password', '910929xiao!@')])
+16:39:12 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:39:12 current_user的id -> 3
+16:39:12 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:52:51 add form -> ImmutableMultiDict([('title', 'Django的收藏按钮'), ('content', '关于django的收藏按钮，要实现点击收藏实际上基本上就是ajax的方式，也就是异步收藏，那就少不了JS代码，好吧，直接上代码。\r\n```{% block custom_js %}\r\n    <script type="text/javascript">\r\n        //收藏\r\n        function add_fav(current_elem, fav_id, fav_type){\r\n            $.ajax({\r\n                cache: false,\r\n                type: "POST",\r\n                url:"{% url \'你自己设定的url\' %}",\r\n                data:{\'fav_id\':fav_id, \'fav_type\':fav_type},\r\n                async: true,\r\n                beforeSend:function(xhr, settings){\r\n                    xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");\r\n                },\r\n                success: function(data) {\r\n                    if(data.status == \'fail\'){\r\n                        if(data.msg == \'用户未登录\'){\r\n                            window.location.href="{% url \'login\' %}";\r\n                        }else{\r\n                            current_elem.text(data.msg)\r\n                        }\r\n\r\n                    }else if(data.status == \'success\'){\r\n                        current_elem.text(data.msg)\r\n                    }\r\n                },\r\n            });\r\n        }\r\n\r\n    $(\'#jsLeftBtn\').on(\'click\', function(){\r\n        add_fav($(this), {{ 收藏项目对应的id号（xxx.id） }}, 你设定的fav_type对应的数字);\r\n    });\r\n    </script>\r\n{% endblock %}```\r\n \r\n然后写完这个代码还不够，因为要保证页面刷新之后依然保持点击过按钮的状态，所以要在html中找到收藏按钮位置，然后加上if判断来让页面记住用户之前的操作。\r\n```{% if has_faved %}已收藏{% else %}收藏{% endif %}```\r\n同样的后台逻辑也要跟上，不然还是错的。\r\n```class AddFavView(View):\r\n    \'\'\'\r\n    用户收藏，取消收藏\r\n    \'\'\'\r\n    def post(self, request):\r\n        fav_id = request.POST.get(\'fav_id\', 0)\r\n        fav_type = request.POST.get(\'fav_type\', 0)\r\n\r\n        if not request.user.is_authenticated():\r\n            # 判断用户登录状态\r\n            return HttpResponse(\'{"status":"fail", "msg":"用户未登录"}\', content_type=\'application/json\')\r\n        exist_records = UserFavorite.objects.filter(user=request.user, fav_id=int(fav_id), fav_type=int(fav_type))\r\n        if exist_records:\r\n            # 记录已经存在， 表示用户想要取消收藏\r\n            exist_records.delete()\r\n            return HttpResponse(\'{"status":"fail", "msg":"收藏"}\', content_type=\'application/json\')\r\n        else:\r\n            user_fav = UserFavorite()\r\n            if int(fav_id) > 0 and int(fav_type) > 0:\r\n                user_fav.user = request.user\r\n                user_fav.fav_id = int(fav_id)\r\n                user_fav.fav_type = int(fav_type)\r\n                user_fav.save()\r\n                return HttpResponse(\'{"status":"success", "msg":"已收藏"}\', content_type=\'application/json\')\r\n            else:\r\n                return HttpResponse(\'{"status":"fail", "msg":"收藏出错"}\', content_type=\'application/json\')```\r\n\t\t\t\t\r\n恩，基本就是这样！点击完进数据库检查一下，看看是否已经入库就可以啦！'), ('board_id', '1')])
+16:52:51 current_user的id -> 3
+16:52:51 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:52:51 current_user的id -> 3
+16:52:51 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:52:51 csrf_tokens {'08f36c77-3856-4023-bcb3-dd3911a70c44': 3}
+16:53:00 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+16:53:00 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:53:00 current_user的id -> 3
+16:53:00 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:53:03 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:53:03 current_user的id -> 3
+16:53:03 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:53:07 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+16:53:07 current_user的id -> 3
+16:53:07 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:53:10 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+16:53:10 current_user的id -> 3
+16:53:10 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:53:13 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:53:13 current_user的id -> 3
+16:53:13 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:53:58 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+16:53:58 current_user的id -> 3
+16:53:58 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:54:01 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+16:54:01 current_user的id -> 3
+16:54:01 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:54:03 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=3' [GET]>
+16:54:03 current_user的id -> 3
+16:54:03 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+16:54:04 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+16:54:07 current_user的id -> 3
+16:54:07 current_user -> <User: 
+  deleted = False
+  username = chandler
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  id = 3
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+>
+17:09:00 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:09:00 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:09:03 current_user的id -> 3
+17:09:03 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:09:12 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:09:12 current_user的id -> 3
+17:09:12 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:09:19 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:09:19 current_user的id -> 3
+17:09:19 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:09:21 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+17:09:21 current_user的id -> 3
+17:09:21 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:09:22 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:09:22 current_user的id -> 3
+17:09:22 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:09:24 current_user的id -> 3
+17:09:24 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:09:24 csrf_tokens {'fea85a9d-5cee-497a-b581-28fedca737e9': 3}
+17:09:35 token -> fea85a9d-5cee-497a-b581-28fedca737e9
+17:09:35 csrf_tokens -> {'fea85a9d-5cee-497a-b581-28fedca737e9': 3}
+17:09:35 current_user的id -> 3
+17:09:35 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:09:35 删除 topic 用户是 <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+> 1
+17:09:35 要删除的topic <Topic: 
+  board_id = 1
+  views = 4
+  created_time = 2018-01-01 16:52:51
+  title = Django的收藏按钮
+  _id = 5a4a67635557c007ae7712ef
+  type = topic
+  updated_time = 2018-01-01 16:52:51
+  deleted = False
+  id = 1
+  content = 关于django的收藏按钮，要实现点击收藏实际上基本上就是ajax的方式，也就是异步收藏，那就少不了JS代码，好吧，直接上代码。
+```{% block custom_js %}
+    <script type="text/javascript">
+        //收藏
+        function add_fav(current_elem, fav_id, fav_type){
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url:"{% url '你自己设定的url' %}",
+                data:{'fav_id':fav_id, 'fav_type':fav_type},
+                async: true,
+                beforeSend:function(xhr, settings){
+                    xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
+                },
+                success: function(data) {
+                    if(data.status == 'fail'){
+                        if(data.msg == '用户未登录'){
+                            window.location.href="{% url 'login' %}";
+                        }else{
+                            current_elem.text(data.msg)
+                        }
+
+                    }else if(data.status == 'success'){
+                        current_elem.text(data.msg)
+                    }
+                },
+            });
+        }
+
+    $('#jsLeftBtn').on('click', function(){
+        add_fav($(this), {{ 收藏项目对应的id号（xxx.id） }}, 你设定的fav_type对应的数字);
+    });
+    </script>
+{% endblock %}```
+ 
+然后写完这个代码还不够，因为要保证页面刷新之后依然保持点击过按钮的状态，所以要在html中找到收藏按钮位置，然后加上if判断来让页面记住用户之前的操作。
+```{% if has_faved %}已收藏{% else %}收藏{% endif %}```
+同样的后台逻辑也要跟上，不然还是错的。
+```class AddFavView(View):
+    '''
+    用户收藏，取消收藏
+    '''
+    def post(self, request):
+        fav_id = request.POST.get('fav_id', 0)
+        fav_type = request.POST.get('fav_type', 0)
+
+        if not request.user.is_authenticated():
+            # 判断用户登录状态
+            return HttpResponse('{"status":"fail", "msg":"用户未登录"}', content_type='application/json')
+        exist_records = UserFavorite.objects.filter(user=request.user, fav_id=int(fav_id), fav_type=int(fav_type))
+        if exist_records:
+            # 记录已经存在， 表示用户想要取消收藏
+            exist_records.delete()
+            return HttpResponse('{"status":"fail", "msg":"收藏"}', content_type='application/json')
+        else:
+            user_fav = UserFavorite()
+            if int(fav_id) > 0 and int(fav_type) > 0:
+                user_fav.user = request.user
+                user_fav.fav_id = int(fav_id)
+                user_fav.fav_type = int(fav_type)
+                user_fav.save()
+                return HttpResponse('{"status":"success", "msg":"已收藏"}', content_type='application/json')
+            else:
+                return HttpResponse('{"status":"fail", "msg":"收藏出错"}', content_type='application/json')```
+				
+恩，基本就是这样！点击完进数据库检查一下，看看是否已经入库就可以啦！
+  user_id = 3
+>
+17:09:35 删除name Topic
+17:09:35 query {'id': 1}
+17:09:35 mongo Collection Collection(Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True), 'db'), 'Topic')
+17:09:35 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:09:35 current_user的id -> 3
+17:09:35 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:09:38 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:09:39 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:09:39 current_user的id -> 3
+17:09:39 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:10:28 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:10:28 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:10:31 current_user的id -> 3
+17:10:31 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:10:34 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:10:34 current_user的id -> 3
+17:10:34 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:10:35 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:10:35 current_user的id -> 3
+17:10:35 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:10:36 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:10:36 current_user的id -> 3
+17:10:36 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:10:53 add form -> ImmutableMultiDict([('board_id', '2'), ('title', 'sdfdsfs'), ('content', 'sdxcvx')])
+17:10:53 current_user的id -> 3
+17:10:53 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:10:53 current_user的id -> 3
+17:10:53 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:10:53 csrf_tokens {'0e032c0d-c5a8-41e4-b770-3602c2b6d010': 3}
+17:10:56 current_user的id -> 3
+17:10:56 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:10:56 DEBUG 回复 -> ImmutableMultiDict([('topic_id', '2'), ('content', 'asdas')])
+17:10:57 current_user的id -> 3
+17:10:57 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:10:57 csrf_tokens {'0e032c0d-c5a8-41e4-b770-3602c2b6d010': 3, '42768490-0b1f-4cf7-ae4c-ba765dfbdbb4': 3}
+17:10:58 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:10:58 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:10:58 current_user的id -> 3
+17:10:58 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:11:05 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:11:05 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:11:05 current_user的id -> 3
+17:11:05 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:12:27 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:12:27 current_user的id -> 3
+17:12:27 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:12:28 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+17:12:28 current_user的id -> 3
+17:12:28 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:12:30 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:12:30 current_user的id -> 3
+17:12:30 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:24:47 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:24:50 current_user的id -> 3
+17:24:50 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:25:21 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+17:25:21 current_user的id -> 3
+17:25:21 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:25:22 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+17:25:22 current_user的id -> 3
+17:25:22 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:25:23 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:25:23 current_user的id -> 3
+17:25:23 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:25:25 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+17:25:25 current_user的id -> 3
+17:25:25 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:25:26 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:25:29 current_user的id -> 3
+17:25:29 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:25:39 add form -> ImmutableMultiDict([('board_id', '1'), ('title', 'sdfasfsf'), ('content', 'asdasdasd')])
+17:25:39 current_user的id -> 3
+17:25:39 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:25:39 current_user的id -> 3
+17:25:39 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:25:39 csrf_tokens {'3f7589fa-153e-481f-b3f2-735260f29ed6': 3}
+17:25:42 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:25:43 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:25:43 current_user的id -> 3
+17:25:43 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:27:45 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:27:45 current_user的id -> 3
+17:27:45 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:27:46 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+17:27:46 current_user的id -> 3
+17:27:46 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:27:47 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:27:47 current_user的id -> 3
+17:27:47 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:27:48 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:27:51 current_user的id -> 3
+17:27:51 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:27:51 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:27:51 current_user的id -> 3
+17:27:51 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:06 add form -> ImmutableMultiDict([('board_id', '1'), ('title', 'llllllll'), ('content', 'llllllllll')])
+17:28:06 current_user的id -> 3
+17:28:06 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:07 current_user的id -> 3
+17:28:07 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:07 csrf_tokens {'8ae8f45d-7dfd-4faa-9081-b9df091206d1': 3}
+17:28:08 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:28:09 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:28:09 current_user的id -> 3
+17:28:09 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:11 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:28:11 current_user的id -> 3
+17:28:11 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:12 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:28:12 current_user的id -> 3
+17:28:12 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:13 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:28:13 current_user的id -> 3
+17:28:13 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:15 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:28:15 current_user的id -> 3
+17:28:15 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:16 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:28:16 current_user的id -> 3
+17:28:16 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:23 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:28:24 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:28:24 current_user的id -> 3
+17:28:24 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:26 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:28:27 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:28:27 current_user的id -> 3
+17:28:27 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:29 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:28:29 current_user的id -> 3
+17:28:29 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:30 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+17:28:30 current_user的id -> 3
+17:28:30 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:32 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=3' [GET]>
+17:28:32 current_user的id -> 3
+17:28:32 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:33 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:28:33 current_user的id -> 3
+17:28:33 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:35 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+17:28:35 current_user的id -> 3
+17:28:35 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:35 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=3' [GET]>
+17:28:35 current_user的id -> 3
+17:28:35 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:36 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+17:28:36 current_user的id -> 3
+17:28:36 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:37 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:28:37 current_user的id -> 3
+17:28:37 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:38 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:28:38 current_user的id -> 3
+17:28:38 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:40 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:28:40 current_user的id -> 3
+17:28:40 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:42 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+17:28:42 current_user的id -> 3
+17:28:42 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:43 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:28:43 current_user的id -> 3
+17:28:43 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:46 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:28:46 current_user的id -> 3
+17:28:46 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:48 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:28:48 current_user的id -> 3
+17:28:48 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:52 current_user的id -> 3
+17:28:52 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:54 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:28:54 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:28:54 current_user的id -> 3
+17:28:54 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:28:56 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:28:56 current_user的id -> 3
+17:28:56 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:29:06 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:29:06 current_user的id -> 3
+17:29:06 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:31:22 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:31:23 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:31:26 current_user的id -> 3
+17:31:26 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:31:35 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:31:35 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:31:35 current_user的id -> 3
+17:31:35 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:31:59 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:31:59 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:31:59 current_user的id -> 3
+17:31:59 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:08 add form -> ImmutableMultiDict([('board_id', '1'), ('title', 'asdasd'), ('content', 'asdasdsa')])
+17:32:08 current_user的id -> 3
+17:32:08 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:09 current_user的id -> 3
+17:32:09 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:09 csrf_tokens {'d2afa75d-bb2f-406c-983b-04f0b2739cfd': 3}
+17:32:11 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:32:12 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:32:12 current_user的id -> 3
+17:32:12 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:16 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:32:16 current_user的id -> 3
+17:32:16 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:18 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+17:32:18 current_user的id -> 3
+17:32:18 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:20 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:32:20 current_user的id -> 3
+17:32:20 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:22 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:32:22 current_user的id -> 3
+17:32:22 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:32 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:32:33 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:32:33 current_user的id -> 3
+17:32:33 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:40 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:32:40 current_user的id -> 3
+17:32:40 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:40 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:32:41 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:32:41 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:32:41 current_user的id -> 3
+17:32:41 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:44 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+17:32:44 current_user的id -> 3
+17:32:44 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:45 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:32:45 current_user的id -> 3
+17:32:45 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:46 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:32:46 current_user的id -> 3
+17:32:46 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:47 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=3' [GET]>
+17:32:47 current_user的id -> 3
+17:32:47 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:49 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:32:49 current_user的id -> 3
+17:32:49 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:58 add form -> ImmutableMultiDict([('board_id', '3'), ('title', 'ererererererere'), ('content', 'rere')])
+17:32:58 current_user的id -> 3
+17:32:58 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:58 current_user的id -> 3
+17:32:58 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:32:58 csrf_tokens {'d2afa75d-bb2f-406c-983b-04f0b2739cfd': 3, '6f0a27c3-8877-40eb-9a5b-ec89e62722bf': 3}
+17:33:02 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:33:03 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:33:03 current_user的id -> 3
+17:33:03 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:33:05 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=3' [GET]>
+17:33:05 current_user的id -> 3
+17:33:05 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:33:07 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:33:07 current_user的id -> 3
+17:33:07 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:33:15 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:33:16 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:33:16 current_user的id -> 3
+17:33:16 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:33:20 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:33:21 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:33:21 current_user的id -> 3
+17:33:21 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:33:23 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=3' [GET]>
+17:33:23 current_user的id -> 3
+17:33:23 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:33:24 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+17:33:24 current_user的id -> 3
+17:33:24 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:33:25 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:33:25 current_user的id -> 3
+17:33:25 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:33:26 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:33:26 current_user的id -> 3
+17:33:26 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:34:32 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:34:32 current_user的id -> 3
+17:34:32 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:34:39 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:34:39 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:34:39 current_user的id -> 3
+17:34:39 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:34:41 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=3' [GET]>
+17:34:41 current_user的id -> 3
+17:34:41 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:34:43 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+17:34:43 current_user的id -> 3
+17:34:43 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:34:44 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+17:34:44 current_user的id -> 3
+17:34:44 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:34:45 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:34:45 current_user的id -> 3
+17:34:45 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:34:49 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:34:49 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:34:49 current_user的id -> 3
+17:34:49 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:35:20 current_user的id -> 3
+17:35:20 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:35:56 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:35:57 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:36:00 current_user的id -> 3
+17:36:00 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:36:08 add form -> ImmutableMultiDict([('board_id', '3'), ('title', 'oooooo'), ('content', 'ooo')])
+17:36:08 current_user的id -> 3
+17:36:08 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:36:08 current_user的id -> 3
+17:36:08 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:36:08 csrf_tokens {'cf45363c-6352-418e-9fc6-b07906590f9e': 3}
+17:36:12 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:36:13 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:36:13 current_user的id -> 3
+17:36:13 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:36:38 current_user的id -> 3
+17:36:38 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:36:38 csrf_tokens {'cf45363c-6352-418e-9fc6-b07906590f9e': 3, '5b9e516b-372e-4a62-a3c3-780953596c7a': 3}
+17:37:47 add form -> ImmutableMultiDict([('board_id', '1'), ('title', 'Django'), ('content', '```\r\n{% block custom_js %}\r\n    <script type="text/javascript">\r\n        //收藏\r\n        function add_fav(current_elem, fav_id, fav_type){\r\n            $.ajax({\r\n                cache: false,\r\n                type: "POST",\r\n                url:"{% url \'你自己设定的url\' %}",\r\n                data:{\'fav_id\':fav_id, \'fav_type\':fav_type},\r\n                async: true,\r\n                beforeSend:function(xhr, settings){\r\n                    xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");\r\n                },\r\n                success: function(data) {\r\n                    if(data.status == \'fail\'){\r\n                        if(data.msg == \'用户未登录\'){\r\n                            window.location.href="{% url \'login\' %}";\r\n                        }else{\r\n                            current_elem.text(data.msg)\r\n                        }\r\n\r\n                    }else if(data.status == \'success\'){\r\n                        current_elem.text(data.msg)\r\n                    }\r\n                },\r\n            });\r\n        }\r\n\r\n    $(\'#jsLeftBtn\').on(\'click\', function(){\r\n        add_fav($(this), {{ 收藏项目对应的id号（xxx.id） }}, 你设定的fav_type对应的数字);\r\n    });\r\n    </script>\r\n{% endblock %}\r\n```')])
+17:37:47 current_user的id -> 3
+17:37:47 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:37:47 current_user的id -> 3
+17:37:47 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:37:47 csrf_tokens {'79e1752d-1331-4aa2-b65f-ccbf83d9b372': 3}
+17:38:07 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:38:07 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:38:10 current_user的id -> 3
+17:38:10 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:38:41 add form -> ImmutableMultiDict([('board_id', '2'), ('title', 'test'), ('content', '```\r\n{% block custom_js %}\r\n    <script type="text/javascript">\r\n        //收藏\r\n        function add_fav(current_elem, fav_id, fav_type){\r\n            $.ajax({\r\n                cache: false,\r\n                type: "POST",\r\n                url:"{% url \'你自己设定的url\' %}",\r\n                data:{\'fav_id\':fav_id, \'fav_type\':fav_type},\r\n                async: true,\r\n                beforeSend:function(xhr, settings){\r\n                    xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");\r\n                },\r\n                success: function(data) {\r\n                    if(data.status == \'fail\'){\r\n                        if(data.msg == \'用户未登录\'){\r\n                            window.location.href="{% url \'login\' %}";\r\n                        }else{\r\n                            current_elem.text(data.msg)\r\n                        }\r\n\r\n                    }else if(data.status == \'success\'){\r\n                        current_elem.text(data.msg)\r\n                    }\r\n                },\r\n            });\r\n        }\r\n\r\n    $(\'#jsLeftBtn\').on(\'click\', function(){\r\n        add_fav($(this), {{ 收藏项目对应的id号（xxx.id） }}, 你设定的fav_type对应的数字);\r\n    });\r\n    </script>\r\n{% endblock %}\r\n```')])
+17:38:41 current_user的id -> 3
+17:38:41 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:38:41 current_user的id -> 3
+17:38:41 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:38:41 csrf_tokens {'79e1752d-1331-4aa2-b65f-ccbf83d9b372': 3, 'b588f15b-15fb-41e8-bd17-fa548c1db7e0': 3}
+17:38:47 token -> b588f15b-15fb-41e8-bd17-fa548c1db7e0
+17:38:47 csrf_tokens -> {'79e1752d-1331-4aa2-b65f-ccbf83d9b372': 3, 'b588f15b-15fb-41e8-bd17-fa548c1db7e0': 3}
+17:38:47 current_user的id -> 3
+17:38:47 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:38:47 删除 topic 用户是 <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+> 9
+17:38:47 要删除的topic <Topic: 
+  board_id = 2
+  views = 3
+  created_time = 2018-01-01 17:38:41
+  title = test
+  _id = 5a4a72215557c00a9a9a7e8a
+  type = topic
+  updated_time = 2018-01-01 17:38:41
+  deleted = False
+  id = 9
+  content = ```
+{% block custom_js %}
+    <script type="text/javascript">
+        //收藏
+        function add_fav(current_elem, fav_id, fav_type){
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url:"{% url '你自己设定的url' %}",
+                data:{'fav_id':fav_id, 'fav_type':fav_type},
+                async: true,
+                beforeSend:function(xhr, settings){
+                    xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
+                },
+                success: function(data) {
+                    if(data.status == 'fail'){
+                        if(data.msg == '用户未登录'){
+                            window.location.href="{% url 'login' %}";
+                        }else{
+                            current_elem.text(data.msg)
+                        }
+
+                    }else if(data.status == 'success'){
+                        current_elem.text(data.msg)
+                    }
+                },
+            });
+        }
+
+    $('#jsLeftBtn').on('click', function(){
+        add_fav($(this), {{ 收藏项目对应的id号（xxx.id） }}, 你设定的fav_type对应的数字);
+    });
+    </script>
+{% endblock %}
+```
+  user_id = 3
+>
+17:38:47 删除name Topic
+17:38:47 query {'id': 9}
+17:38:47 mongo Collection Collection(Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True), 'db'), 'Topic')
+17:38:47 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:38:47 current_user的id -> 3
+17:38:47 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:39:04 current_user的id -> 3
+17:39:04 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:39:04 csrf_tokens {'79e1752d-1331-4aa2-b65f-ccbf83d9b372': 3, '46a736f7-e5b3-44df-9066-25c100e5754b': 3}
+17:39:06 token -> 46a736f7-e5b3-44df-9066-25c100e5754b
+17:39:06 csrf_tokens -> {'79e1752d-1331-4aa2-b65f-ccbf83d9b372': 3, '46a736f7-e5b3-44df-9066-25c100e5754b': 3}
+17:39:06 current_user的id -> 3
+17:39:06 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:39:06 删除 topic 用户是 <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+> 6
+17:39:06 要删除的topic <Topic: 
+  board_id = 3
+  views = 4
+  created_time = 2018-01-01 17:32:58
+  title = ererererererere
+  _id = 5a4a70ca5557c00a3159f093
+  type = topic
+  updated_time = 2018-01-01 17:32:58
+  deleted = False
+  id = 6
+  content = rere
+  user_id = 3
+>
+17:39:06 删除name Topic
+17:39:06 query {'id': 6}
+17:39:06 mongo Collection Collection(Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True), 'db'), 'Topic')
+17:39:06 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:39:06 current_user的id -> 3
+17:39:06 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:39:12 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:39:12 current_user的id -> 3
+17:39:12 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:40:42 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:40:45 current_user的id -> -1
+17:40:45 current_user -> None
+17:40:45 current_user的id -> 3
+17:40:45 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:40:45 csrf_tokens {'30f39fb0-d648-41bd-8255-58a456a90e4c': 3}
+17:40:48 current_user的id -> 3
+17:40:48 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:40:48 csrf_tokens {'5821d27d-782e-41d5-b7b5-4d64ad3ce594': 3, '30f39fb0-d648-41bd-8255-58a456a90e4c': 3}
+17:40:51 current_user的id -> 3
+17:40:51 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:40:51 csrf_tokens {'caaba9ed-0836-47eb-933c-fd8341156e72': 3, '5821d27d-782e-41d5-b7b5-4d64ad3ce594': 3, '30f39fb0-d648-41bd-8255-58a456a90e4c': 3}
+17:40:52 token -> caaba9ed-0836-47eb-933c-fd8341156e72
+17:40:52 csrf_tokens -> {'caaba9ed-0836-47eb-933c-fd8341156e72': 3, '5821d27d-782e-41d5-b7b5-4d64ad3ce594': 3, '30f39fb0-d648-41bd-8255-58a456a90e4c': 3}
+17:40:52 current_user的id -> 3
+17:40:52 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:40:52 删除 topic 用户是 <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+> 8
+17:40:52 要删除的topic <Topic: 
+  board_id = 1
+  views = 5
+  created_time = 2018-01-01 17:37:47
+  title = Django
+  _id = 5a4a71eb5557c00a9a9a7e89
+  type = topic
+  updated_time = 2018-01-01 17:37:47
+  deleted = False
+  id = 8
+  content = ```
+{% block custom_js %}
+    <script type="text/javascript">
+        //收藏
+        function add_fav(current_elem, fav_id, fav_type){
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url:"{% url '你自己设定的url' %}",
+                data:{'fav_id':fav_id, 'fav_type':fav_type},
+                async: true,
+                beforeSend:function(xhr, settings){
+                    xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
+                },
+                success: function(data) {
+                    if(data.status == 'fail'){
+                        if(data.msg == '用户未登录'){
+                            window.location.href="{% url 'login' %}";
+                        }else{
+                            current_elem.text(data.msg)
+                        }
+
+                    }else if(data.status == 'success'){
+                        current_elem.text(data.msg)
+                    }
+                },
+            });
+        }
+
+    $('#jsLeftBtn').on('click', function(){
+        add_fav($(this), {{ 收藏项目对应的id号（xxx.id） }}, 你设定的fav_type对应的数字);
+    });
+    </script>
+{% endblock %}
+```
+  user_id = 3
+>
+17:40:52 删除name Topic
+17:40:52 query {'id': 8}
+17:40:52 mongo Collection Collection(Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True), 'db'), 'Topic')
+17:40:52 index 的 request -> <Request 'http://localhost:2000/' [GET]>
+17:40:52 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:40:52 current_user的id -> 3
+17:40:52 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:45:52 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:45:53 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:45:53 current_user的id -> 3
+17:45:53 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:46:01 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:46:01 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:46:01 current_user的id -> 3
+17:46:01 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:46:02 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:46:03 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:46:03 current_user的id -> 3
+17:46:03 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:46:22 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+17:46:23 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+17:46:23 current_user的id -> 3
+17:46:23 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:46:31 current_user的id -> 3
+17:46:31 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+17:46:31 csrf_tokens {'5821d27d-782e-41d5-b7b5-4d64ad3ce594': 3, '30f39fb0-d648-41bd-8255-58a456a90e4c': 3, 'df2930a6-bf72-4579-b559-712937c61169': 3}
+18:04:23 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+18:04:26 current_user的id -> 3
+18:04:26 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+18:04:30 current_user的id -> 3
+18:04:30 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+18:04:30 csrf_tokens {'3c3df320-2b3b-426a-8113-9eb9e2fe2587': 3}
+18:04:32 token -> 3c3df320-2b3b-426a-8113-9eb9e2fe2587
+18:04:32 csrf_tokens -> {'3c3df320-2b3b-426a-8113-9eb9e2fe2587': 3}
+18:04:32 current_user的id -> 3
+18:04:32 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+18:04:32 删除 topic 用户是 <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+> 7
+18:04:32 要删除的topic <Topic: 
+  board_id = 3
+  views = 6
+  created_time = 2018-01-01 17:36:08
+  title = oooooo
+  _id = 5a4a71885557c00a86528621
+  type = topic
+  updated_time = 2018-01-01 17:36:08
+  deleted = False
+  id = 7
+  content = ooo
+  user_id = 3
+>
+18:04:32 删除name Topic
+18:04:32 query {'id': 7}
+18:04:32 mongo Collection Collection(Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True), 'db'), 'Topic')
+18:04:32 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+18:04:32 current_user的id -> 3
+18:04:32 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+18:16:05 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+18:16:05 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+18:16:05 current_user的id -> 3
+18:16:05 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+18:22:47 current_user的id -> 3
+18:22:47 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+18:22:47 csrf_tokens {'f57aa87d-aa12-4571-97be-111b2897b5b6': 3}
+18:27:30 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+18:27:30 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+18:27:33 current_user的id -> -1
+18:27:33 current_user -> None
+18:27:38 current_user的id -> -1
+18:27:38 current_user -> None
+18:27:38 csrf_tokens {'616649cb-4def-4d9a-94d7-c5ff607fcf85': None}
+18:27:43 index 的 request -> <Request 'http://www.9ycc.cc:2000/signin' [GET]>
+18:27:49 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+18:27:50 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+18:27:50 current_user的id -> -1
+18:27:50 current_user -> None
+18:27:52 current_user的id -> -1
+18:27:52 current_user -> None
+18:27:52 csrf_tokens {'616649cb-4def-4d9a-94d7-c5ff607fcf85': None, '05c5a57c-bdd7-452a-96af-79d3643a6736': None}
+18:27:57 current_user的id -> -1
+18:27:57 current_user -> None
+18:28:19 index 的 request -> <Request 'http://www.9ycc.cc:2000/signin' [GET]>
+18:28:28 用户登录的form -> ImmutableMultiDict([('password', '910929xiao!@'), ('username', 'chandler')])
+18:28:28 登录用户验证 -> ImmutableMultiDict([('password', '910929xiao!@'), ('username', 'chandler')])
+18:28:29 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+18:28:29 current_user的id -> 3
+18:28:29 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+18:28:32 current_user的id -> 3
+18:28:32 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+18:28:32 csrf_tokens {'616649cb-4def-4d9a-94d7-c5ff607fcf85': None, '6c174882-bde7-465e-bcb2-99c152800180': 3, '05c5a57c-bdd7-452a-96af-79d3643a6736': None}
+18:28:35 token -> 6c174882-bde7-465e-bcb2-99c152800180
+18:28:35 csrf_tokens -> {'616649cb-4def-4d9a-94d7-c5ff607fcf85': None, '6c174882-bde7-465e-bcb2-99c152800180': 3, '05c5a57c-bdd7-452a-96af-79d3643a6736': None}
+18:28:35 current_user的id -> 3
+18:28:35 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+18:28:35 删除 topic 用户是 <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+> 5
+18:28:35 要删除的topic <Topic: 
+  board_id = 1
+  views = 7
+  created_time = 2018-01-01 17:32:08
+  title = asdasd
+  _id = 5a4a70985557c00a3159f092
+  type = topic
+  updated_time = 2018-01-01 17:32:08
+  deleted = False
+  id = 5
+  content = asdasdsa
+  user_id = 3
+>
+18:28:35 删除name Topic
+18:28:35 query {'id': 5}
+18:28:35 mongo Collection Collection(Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True), 'db'), 'Topic')
+18:28:35 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+18:28:35 current_user的id -> 3
+18:28:35 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+18:28:42 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+18:28:42 current_user的id -> 3
+18:28:42 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+18:28:58 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+18:28:58 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+18:28:58 current_user的id -> 3
+18:28:58 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+18:29:21 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+18:29:21 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+18:29:21 current_user的id -> -1
+18:29:21 current_user -> None
+18:30:36 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+18:30:39 current_user的id -> -1
+18:30:39 current_user -> None
+18:31:47 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+18:32:18 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+18:32:21 current_user的id -> -1
+18:32:21 current_user -> None
+18:33:09 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+18:33:12 current_user的id -> 3
+18:33:12 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+18:33:12 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+18:33:12 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+18:33:12 current_user的id -> 3
+18:33:12 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:04:12 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:04:12 current_user的id -> 3
+03:04:12 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:51:49 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+03:51:49 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:51:52 current_user的id -> 3
+03:51:52 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:51:52 current_user的id -> 3
+03:51:52 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:51:52 admin
+03:51:59 添加的板块 -> ImmutableMultiDict([('title', '分享')])
+03:51:59 current_user的id -> 3
+03:51:59 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:52:06 current_user的id -> 3
+03:52:06 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:52:06 admin
+03:52:10 添加的板块 -> ImmutableMultiDict([('title', '精华')])
+03:52:10 current_user的id -> 3
+03:52:10 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:52:40 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:52:43 current_user的id -> 3
+03:52:43 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:53:43 add form -> ImmutableMultiDict([('board_id', '3'), ('title', '用数据告诉你在上海你得这样租（sheng）房（dian）子（qian）'), ('content', 'https://zhuanlan.zhihu.com/p/28421389')])
+03:53:43 current_user的id -> 3
+03:53:43 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:53:43 current_user的id -> 3
+03:53:43 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:53:43 csrf_tokens {'8f336d95-29bb-4a57-bde6-9a20ba062c9b': 3}
+03:53:55 current_user的id -> 3
+03:53:55 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:53:55 DEBUG 回复 -> ImmutableMultiDict([('topic_id', '10'), ('content', '数据分析')])
+03:53:56 current_user的id -> 3
+03:53:56 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:53:56 csrf_tokens {'e424d286-cb66-41eb-8e2a-2e0521ca72c4': 3, '8f336d95-29bb-4a57-bde6-9a20ba062c9b': 3}
+03:54:06 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:54:06 current_user的id -> 3
+03:54:06 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:54:10 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:54:10 current_user的id -> 3
+03:54:10 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:54:11 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+03:54:19 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:54:19 current_user的id -> 3
+03:54:19 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:54:19 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=3' [GET]>
+03:54:19 current_user的id -> 3
+03:54:19 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:54:23 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:54:23 current_user的id -> 3
+03:54:23 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:54:50 add form -> ImmutableMultiDict([('board_id', '1'), ('title', 'Python配置虚拟环境以及安装/连接mysql(Linux-Ubuntu)'), ('content', 'https://zhuanlan.zhihu.com/p/28421940')])
+03:54:50 current_user的id -> 3
+03:54:50 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:54:51 current_user的id -> 3
+03:54:51 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:54:51 csrf_tokens {'e424d286-cb66-41eb-8e2a-2e0521ca72c4': 3, '8f336d95-29bb-4a57-bde6-9a20ba062c9b': 3, '89236ea0-04c9-4f07-b972-d1536317fc92': 3}
+03:55:14 current_user的id -> 3
+03:55:14 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:55:14 DEBUG 回复 -> ImmutableMultiDict([('topic_id', '11'), ('content', '关注知乎专栏：https://www.zhihu.com/people/hong-dong-de-xia-tian/columns')])
+03:55:14 current_user的id -> 3
+03:55:14 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:55:14 csrf_tokens {'736a2ec8-433f-4178-b8bb-f6f816a82594': 3, 'e424d286-cb66-41eb-8e2a-2e0521ca72c4': 3, '8f336d95-29bb-4a57-bde6-9a20ba062c9b': 3, '89236ea0-04c9-4f07-b972-d1536317fc92': 3}
+03:55:45 add form -> ImmutableMultiDict([('board_id', '3'), ('title', 'MySQL小巧而强大的管理工具'), ('content', 'https://zhuanlan.zhihu.com/p/28441884')])
+03:55:45 current_user的id -> 3
+03:55:45 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:55:45 current_user的id -> 3
+03:55:45 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:55:45 csrf_tokens {'736a2ec8-433f-4178-b8bb-f6f816a82594': 3, 'e424d286-cb66-41eb-8e2a-2e0521ca72c4': 3, '436f0372-1ed0-4994-bc33-b106a414c499': 3, '8f336d95-29bb-4a57-bde6-9a20ba062c9b': 3, '89236ea0-04c9-4f07-b972-d1536317fc92': 3}
+03:55:56 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+03:55:57 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:55:57 current_user的id -> 3
+03:55:57 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:56:10 add form -> ImmutableMultiDict([('board_id', '3'), ('title', 'hadoop分布式文件系统HDFS'), ('content', 'https://zhuanlan.zhihu.com/p/28604112')])
+03:56:10 current_user的id -> 3
+03:56:10 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:56:10 current_user的id -> 3
+03:56:10 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:56:10 csrf_tokens {'8f336d95-29bb-4a57-bde6-9a20ba062c9b': 3, '436f0372-1ed0-4994-bc33-b106a414c499': 3, '736a2ec8-433f-4178-b8bb-f6f816a82594': 3, 'e424d286-cb66-41eb-8e2a-2e0521ca72c4': 3, '829a3ffe-0d9f-4979-9ac4-1eed6a2e29ac': 3, '89236ea0-04c9-4f07-b972-d1536317fc92': 3}
+03:56:22 current_user的id -> 3
+03:56:22 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:56:22 DEBUG 回复 -> ImmutableMultiDict([('topic_id', '13'), ('content', 'hadoop  spark')])
+03:56:22 current_user的id -> 3
+03:56:22 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:56:22 csrf_tokens {'8f336d95-29bb-4a57-bde6-9a20ba062c9b': 3, '436f0372-1ed0-4994-bc33-b106a414c499': 3, '2c9a91c3-d9fd-4c65-bff8-2df7a0c6b6b5': 3, '736a2ec8-433f-4178-b8bb-f6f816a82594': 3, 'e424d286-cb66-41eb-8e2a-2e0521ca72c4': 3, '829a3ffe-0d9f-4979-9ac4-1eed6a2e29ac': 3, '89236ea0-04c9-4f07-b972-d1536317fc92': 3}
+03:56:24 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+03:56:24 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:56:24 current_user的id -> 3
+03:56:24 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:56:48 add form -> ImmutableMultiDict([('board_id', '4'), ('title', '常见web攻击'), ('content', 'https://zhuanlan.zhihu.com/p/28821512')])
+03:56:48 current_user的id -> 3
+03:56:48 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:56:48 current_user的id -> 3
+03:56:48 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:56:48 csrf_tokens {'307c44bb-2e8e-4995-b5ab-5f471b9ccf75': 3, '8f336d95-29bb-4a57-bde6-9a20ba062c9b': 3, '436f0372-1ed0-4994-bc33-b106a414c499': 3, '2c9a91c3-d9fd-4c65-bff8-2df7a0c6b6b5': 3, '736a2ec8-433f-4178-b8bb-f6f816a82594': 3, 'e424d286-cb66-41eb-8e2a-2e0521ca72c4': 3, '829a3ffe-0d9f-4979-9ac4-1eed6a2e29ac': 3, '89236ea0-04c9-4f07-b972-d1536317fc92': 3}
+03:56:51 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+03:56:52 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:56:52 current_user的id -> 3
+03:56:52 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:57:29 add form -> ImmutableMultiDict([('board_id', '4'), ('title', 'SparkSQL数据分析项目---数据统计工作'), ('content', 'https://zhuanlan.zhihu.com/p/29897059')])
+03:57:29 current_user的id -> 3
+03:57:29 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:57:29 current_user的id -> 3
+03:57:29 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:57:29 csrf_tokens {'307c44bb-2e8e-4995-b5ab-5f471b9ccf75': 3, '8f336d95-29bb-4a57-bde6-9a20ba062c9b': 3, '436f0372-1ed0-4994-bc33-b106a414c499': 3, '2c9a91c3-d9fd-4c65-bff8-2df7a0c6b6b5': 3, '7116f9c6-58b1-48ec-aeb4-b235a9535157': 3, '736a2ec8-433f-4178-b8bb-f6f816a82594': 3, 'e424d286-cb66-41eb-8e2a-2e0521ca72c4': 3, '829a3ffe-0d9f-4979-9ac4-1eed6a2e29ac': 3, '89236ea0-04c9-4f07-b972-d1536317fc92': 3}
+03:57:31 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+03:57:31 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:57:31 current_user的id -> 3
+03:57:31 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:57:50 add form -> ImmutableMultiDict([('board_id', '5'), ('title', '如何上线一个python web项目并嵌入GA追踪代码？'), ('content', 'https://zhuanlan.zhihu.com/p/30729221')])
+03:57:50 current_user的id -> 3
+03:57:50 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:57:50 current_user的id -> 3
+03:57:50 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:57:50 csrf_tokens {'307c44bb-2e8e-4995-b5ab-5f471b9ccf75': 3, '8f336d95-29bb-4a57-bde6-9a20ba062c9b': 3, '436f0372-1ed0-4994-bc33-b106a414c499': 3, '2c9a91c3-d9fd-4c65-bff8-2df7a0c6b6b5': 3, '7116f9c6-58b1-48ec-aeb4-b235a9535157': 3, '736a2ec8-433f-4178-b8bb-f6f816a82594': 3, 'e424d286-cb66-41eb-8e2a-2e0521ca72c4': 3, '829a3ffe-0d9f-4979-9ac4-1eed6a2e29ac': 3, '89236ea0-04c9-4f07-b972-d1536317fc92': 3, '3eb12efe-6ccc-4b0d-a671-8805e7341f8f': 3}
+03:58:08 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+03:58:09 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:58:09 current_user的id -> 3
+03:58:09 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:58:19 add form -> ImmutableMultiDict([('board_id', '3'), ('title', '股票价格数据分析'), ('content', 'https://zhuanlan.zhihu.com/p/31237526')])
+03:58:19 current_user的id -> 3
+03:58:19 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:58:19 current_user的id -> 3
+03:58:19 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:58:19 csrf_tokens {'307c44bb-2e8e-4995-b5ab-5f471b9ccf75': 3, '383cffff-f672-4e42-897b-b5e60051a875': 3, '8f336d95-29bb-4a57-bde6-9a20ba062c9b': 3, '436f0372-1ed0-4994-bc33-b106a414c499': 3, '2c9a91c3-d9fd-4c65-bff8-2df7a0c6b6b5': 3, '7116f9c6-58b1-48ec-aeb4-b235a9535157': 3, '736a2ec8-433f-4178-b8bb-f6f816a82594': 3, 'e424d286-cb66-41eb-8e2a-2e0521ca72c4': 3, '829a3ffe-0d9f-4979-9ac4-1eed6a2e29ac': 3, '89236ea0-04c9-4f07-b972-d1536317fc92': 3, '3eb12efe-6ccc-4b0d-a671-8805e7341f8f': 3}
+03:58:21 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+03:58:21 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:58:21 current_user的id -> 3
+03:58:21 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:58:44 add form -> ImmutableMultiDict([('board_id', '4'), ('title', '数据分析--百年大电影'), ('content', 'https://zhuanlan.zhihu.com/p/31393727')])
+03:58:44 current_user的id -> 3
+03:58:44 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:58:45 current_user的id -> 3
+03:58:45 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:58:45 csrf_tokens {'e424d286-cb66-41eb-8e2a-2e0521ca72c4': 3, '3eb12efe-6ccc-4b0d-a671-8805e7341f8f': 3, '436f0372-1ed0-4994-bc33-b106a414c499': 3, '89cf0294-259d-470b-8e25-11a55a5dff8d': 3, '736a2ec8-433f-4178-b8bb-f6f816a82594': 3, '383cffff-f672-4e42-897b-b5e60051a875': 3, '7116f9c6-58b1-48ec-aeb4-b235a9535157': 3, '89236ea0-04c9-4f07-b972-d1536317fc92': 3, '307c44bb-2e8e-4995-b5ab-5f471b9ccf75': 3, '8f336d95-29bb-4a57-bde6-9a20ba062c9b': 3, '2c9a91c3-d9fd-4c65-bff8-2df7a0c6b6b5': 3, '829a3ffe-0d9f-4979-9ac4-1eed6a2e29ac': 3}
+03:58:48 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+03:58:49 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:58:49 current_user的id -> 3
+03:58:49 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:58:53 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+03:58:53 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:58:53 current_user的id -> 3
+03:58:53 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+03:59:17 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+03:59:19 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+03:59:19 current_user的id -> 3
+03:59:19 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+04:00:01 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=4' [GET]>
+04:00:01 current_user的id -> 3
+04:00:01 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+04:00:02 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=3' [GET]>
+04:00:02 current_user的id -> 3
+04:00:02 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+04:00:31 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+04:00:32 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+04:00:32 current_user的id -> 3
+04:00:32 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+04:00:35 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+04:00:35 current_user的id -> 3
+04:00:35 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+04:00:38 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+04:00:38 current_user的id -> 3
+04:00:38 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+04:00:38 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+04:00:38 current_user的id -> 3
+04:00:38 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+04:00:41 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=3' [GET]>
+04:00:41 current_user的id -> 3
+04:00:41 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+04:00:43 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=4' [GET]>
+04:00:43 current_user的id -> 3
+04:00:43 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+04:00:45 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=5' [GET]>
+04:00:45 current_user的id -> 3
+04:00:45 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+04:00:46 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+04:00:46 current_user的id -> 3
+04:00:46 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+04:00:47 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+04:00:47 current_user的id -> 3
+04:00:47 current_user -> <User: 
+  user_image = 
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  created_time = 2018-01-01 16:21:34
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  deleted = False
+  id = 3
+  username = chandler
+>
+04:02:46 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+04:02:47 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+04:02:50 current_user的id -> 3
+04:02:50 current_user -> <User: 
+  user_image = 
+  deleted = False
+  role = admin
+  id = 3
+  username = chandler
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  type = user
+  created_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+04:02:50 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+04:02:53 current_user的id -> 3
+04:02:53 current_user -> <User: 
+  user_image = 
+  deleted = False
+  role = admin
+  id = 3
+  username = chandler
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  type = user
+  created_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+04:02:57 index 的 request -> <Request 'http://www.9ycc.cc:2000/?tab=all&page=101' [GET]>
+04:02:57 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+04:03:00 current_user的id -> 3
+04:03:00 current_user -> <User: 
+  user_image = 
+  deleted = False
+  role = admin
+  id = 3
+  username = chandler
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  type = user
+  created_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+04:03:00 index 的 request -> <Request 'http://www.9ycc.cc:2000/?tab=all&page=2' [GET]>
+04:03:00 index 的 request -> <Request 'http://www.9ycc.cc:2000/?tab=all&page=2' [GET]>
+04:03:01 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+04:03:04 current_user的id -> 3
+04:03:04 current_user -> <User: 
+  user_image = 
+  deleted = False
+  role = admin
+  id = 3
+  username = chandler
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  type = user
+  created_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+04:03:44 add form -> ImmutableMultiDict([('board_id', '3'), ('content', 'https://zhuanlan.zhihu.com/p/31576936'), ('title', '探索Airbnb数据')])
+04:03:44 current_user的id -> 3
+04:03:44 current_user -> <User: 
+  user_image = 
+  deleted = False
+  role = admin
+  id = 3
+  username = chandler
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  type = user
+  created_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+04:03:54 add form -> ImmutableMultiDict([('board_id', '3'), ('content', 'https://zhuanlan.zhihu.com/p/31576936'), ('title', '探索Airbnb数据')])
+04:03:54 current_user的id -> 3
+04:03:54 current_user -> <User: 
+  user_image = 
+  deleted = False
+  role = admin
+  id = 3
+  username = chandler
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  type = user
+  created_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+04:04:50 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+04:04:53 current_user的id -> 3
+04:04:53 current_user -> <User: 
+  user_image = 
+  deleted = False
+  role = admin
+  id = 3
+  username = chandler
+  _id = 5a4a600e5557c0066af7f3a7
+  updated_time = 2018-01-01 16:21:34
+  type = user
+  created_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+04:04:56 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+04:05:04 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+04:05:07 current_user的id -> -1
+04:05:07 current_user -> None
+04:05:11 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+04:05:14 current_user的id -> -1
+04:05:14 current_user -> None
+04:11:25 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+04:12:20 启动项目 ----------->
+04:12:40 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+04:12:41 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+04:14:53 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+04:15:03 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+04:22:33 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+04:22:33 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+04:22:36 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+04:38:30 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+04:38:55 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+04:38:57 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+04:44:46 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+04:45:39 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+04:52:12 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+05:17:58 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+05:19:22 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+05:19:22 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+05:19:25 current_user的id -> -1
+05:19:25 current_user -> None
+05:21:15 add form -> ImmutableMultiDict([('title', '数据可视化--Matplotlib'), ('board_id', '3'), ('content', 'https://zhuanlan.zhihu.com/p/31184000')])
+05:21:15 current_user的id -> -1
+05:21:15 current_user -> None
+05:21:15 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+05:21:18 current_user的id -> -1
+05:21:18 current_user -> None
+05:21:40 add form -> ImmutableMultiDict([('title', '数据分析项目--如何选择你的航班'), ('board_id', '2'), ('content', 'https://zhuanlan.zhihu.com/p/31170114')])
+05:21:40 current_user的id -> -1
+05:21:40 current_user -> None
+05:21:41 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+05:21:44 current_user的id -> -1
+05:21:44 current_user -> None
+05:22:08 add form -> ImmutableMultiDict([('title', 'Pandas之数据分箱/分组/聚合/透视表'), ('board_id', '4'), ('content', 'https://zhuanlan.zhihu.com/p/31168548')])
+05:22:08 current_user的id -> -1
+05:22:08 current_user -> None
+05:22:08 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+05:22:11 current_user的id -> -1
+05:22:11 current_user -> None
+05:22:46 current_user的id -> -1
+05:22:46 current_user -> None
+05:22:46 csrf_tokens {'0aa06427-d82d-413d-bb81-c6047c4667be': None}
+05:23:22 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+05:23:25 current_user的id -> -1
+05:23:25 current_user -> None
+05:23:28 current_user的id -> -1
+05:23:28 current_user -> None
+05:23:28 csrf_tokens {'8871f736-2f65-4d5f-89b5-2c64803cb174': None}
+05:23:32 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+05:23:32 current_user的id -> -1
+05:23:32 current_user -> None
+05:23:34 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+05:23:34 current_user的id -> -1
+05:23:34 current_user -> None
+05:23:35 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=3' [GET]>
+05:23:35 current_user的id -> -1
+05:23:35 current_user -> None
+05:23:36 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=4' [GET]>
+05:23:36 current_user的id -> -1
+05:23:36 current_user -> None
+05:23:38 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=5' [GET]>
+05:23:38 current_user的id -> -1
+05:23:38 current_user -> None
+05:23:39 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+05:23:42 current_user的id -> -1
+05:23:42 current_user -> None
+05:23:48 index 的 request -> <Request 'http://www.9ycc.cc:2000/signin' [GET]>
+05:23:55 用户登录的form -> ImmutableMultiDict([('username', 'chandler'), ('password', '910929xiao!@')])
+05:23:55 登录用户验证 -> ImmutableMultiDict([('username', 'chandler'), ('password', '910929xiao!@')])
+05:23:56 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+05:23:59 current_user的id -> 3
+05:23:59 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+05:24:18 add form -> ImmutableMultiDict([('title', 'Pandas之数据分箱/分组/聚合/透视表'), ('board_id', '2'), ('content', 'https://zhuanlan.zhihu.com/p/31168548')])
+05:24:18 current_user的id -> 3
+05:24:18 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+05:24:18 current_user的id -> 3
+05:24:18 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+05:24:18 csrf_tokens {'8871f736-2f65-4d5f-89b5-2c64803cb174': None, '879c3640-c1ae-4950-8aec-e434e51effbf': 3}
+05:24:47 current_user的id -> 3
+05:24:47 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+05:24:47 DEBUG 回复 -> ImmutableMultiDict([('topic_id', '21'), ('content', 'ds')])
+05:24:47 current_user的id -> 3
+05:24:47 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+05:24:47 csrf_tokens {'8871f736-2f65-4d5f-89b5-2c64803cb174': None, '3ba97fa2-680b-4c6e-9977-9e50ba2f11b5': 3, '879c3640-c1ae-4950-8aec-e434e51effbf': 3}
+05:24:49 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+05:24:50 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+05:24:53 current_user的id -> 3
+05:24:53 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+05:25:06 add form -> ImmutableMultiDict([('title', '简单的时间序列数据采样和模拟股票折线图'), ('board_id', '4'), ('content', 'https://zhuanlan.zhihu.com/p/31139201')])
+05:25:06 current_user的id -> 3
+05:25:06 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+05:25:07 current_user的id -> 3
+05:25:07 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+05:25:07 csrf_tokens {'8871f736-2f65-4d5f-89b5-2c64803cb174': None, '3ba97fa2-680b-4c6e-9977-9e50ba2f11b5': 3, '013a8a1c-c3dd-4c3a-bd3f-262d8b36b12b': 3, '879c3640-c1ae-4950-8aec-e434e51effbf': 3}
+05:25:13 current_user的id -> 3
+05:25:13 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+05:25:13 DEBUG 回复 -> ImmutableMultiDict([('topic_id', '22'), ('content', 'sdf')])
+05:25:13 current_user的id -> 3
+05:25:13 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+05:25:13 csrf_tokens {'8871f736-2f65-4d5f-89b5-2c64803cb174': None, '3ba97fa2-680b-4c6e-9977-9e50ba2f11b5': 3, '6ce3487e-054a-4087-a9c6-854f827f4118': 3, '013a8a1c-c3dd-4c3a-bd3f-262d8b36b12b': 3, '879c3640-c1ae-4950-8aec-e434e51effbf': 3}
+05:25:15 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+05:25:15 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+05:25:18 current_user的id -> 3
+05:25:18 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+05:25:57 add form -> ImmutableMultiDict([('title', '算法天天见之数据规模'), ('board_id', '5'), ('content', 'https://zhuanlan.zhihu.com/p/29416876')])
+05:25:57 current_user的id -> 3
+05:25:57 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+05:25:58 current_user的id -> 3
+05:25:58 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+05:25:58 csrf_tokens {'8871f736-2f65-4d5f-89b5-2c64803cb174': None, '3ba97fa2-680b-4c6e-9977-9e50ba2f11b5': 3, '6ce3487e-054a-4087-a9c6-854f827f4118': 3, '2ffa4e04-b2ed-461e-adcf-111bfc809252': 3, '013a8a1c-c3dd-4c3a-bd3f-262d8b36b12b': 3, '879c3640-c1ae-4950-8aec-e434e51effbf': 3}
+05:26:03 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+05:26:03 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+05:26:06 current_user的id -> 3
+05:26:06 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+05:36:49 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+05:36:49 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+05:36:52 current_user的id -> 3
+05:36:52 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+05:44:42 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+06:00:32 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+06:00:32 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+06:00:35 current_user的id -> 3
+06:00:35 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+06:03:37 current_user的id -> 3
+06:03:37 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+06:03:42 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=4' [GET]>
+06:03:42 current_user的id -> 3
+06:03:42 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+06:03:43 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=5' [GET]>
+06:03:43 current_user的id -> 3
+06:03:43 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+06:03:50 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=3' [GET]>
+06:03:50 current_user的id -> 3
+06:03:50 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+06:03:50 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=2' [GET]>
+06:03:50 current_user的id -> 3
+06:03:50 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+06:03:53 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=3' [GET]>
+06:03:53 current_user的id -> 3
+06:03:53 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+06:03:55 request -> <Request 'http://www.9ycc.cc:2000/topic/?board_id=1' [GET]>
+06:03:55 current_user的id -> 3
+06:03:55 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+06:03:56 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+06:03:59 current_user的id -> 3
+06:03:59 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+08:16:14 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+08:16:15 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+08:16:18 current_user的id -> 3
+08:16:18 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+08:19:28 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+08:19:31 current_user的id -> 3
+08:19:31 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+08:19:31 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+08:19:35 current_user的id -> 3
+08:19:35 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+08:19:35 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+08:19:38 current_user的id -> 3
+08:19:38 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+08:19:38 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+08:19:38 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+08:19:41 current_user的id -> 3
+08:19:41 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+08:54:13 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+08:54:14 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+08:54:17 current_user的id -> 3
+08:54:17 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+08:54:32 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+08:54:35 current_user的id -> 3
+08:54:35 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+08:54:49 current_user的id -> 3
+08:54:49 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+08:55:11 add form -> ImmutableMultiDict([('title', '测试'), ('board_id', '1'), ('content', '测试')])
+08:55:11 current_user的id -> 3
+08:55:11 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+10:33:54 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+10:33:57 current_user的id -> 3
+10:33:57 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+10:41:54 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+10:41:54 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+10:41:57 current_user的id -> 3
+10:41:57 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+10:46:02 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+10:46:05 current_user的id -> 3
+10:46:05 current_user -> <User: 
+  id = 3
+  type = user
+  created_time = 2018-01-01 16:21:34
+  user_image = 
+  deleted = False
+  role = admin
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+10:47:41 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+10:51:49 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+10:51:50 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+10:51:53 current_user的id -> 3
+10:51:53 current_user -> <User: 
+  user_image = 
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  deleted = False
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  role = admin
+  id = 3
+  type = user
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+10:51:57 current_user的id -> 3
+10:51:57 current_user -> <User: 
+  user_image = 
+  updated_time = 2018-01-01 16:21:34
+  created_time = 2018-01-01 16:21:34
+  deleted = False
+  _id = 5a4a600e5557c0066af7f3a7
+  username = chandler
+  role = admin
+  id = 3
+  type = user
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+>
+10:51:57 csrf_tokens {'a4158424-a2cd-4002-adc4-a1f62e6ed034': 3}
+10:53:21 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+10:53:22 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+10:53:25 current_user的id -> 3
+10:53:25 current_user -> <User: 
+  user_image = 
+  role = admin
+  created_time = 2018-01-01 16:21:34
+  type = user
+  updated_time = 2018-01-01 16:21:34
+  id = 3
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  _id = 5a4a600e5557c0066af7f3a7
+  deleted = False
+  username = chandler
+>
+10:57:49 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+10:57:49 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+10:57:52 current_user的id -> 3
+10:57:52 current_user -> <User: 
+  created_time = 2018-01-01 16:21:34
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  _id = 5a4a600e5557c0066af7f3a7
+  id = 3
+  deleted = False
+  type = user
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  user_image = 
+>
+10:57:55 current_user的id -> 3
+10:57:55 current_user -> <User: 
+  created_time = 2018-01-01 16:21:34
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  _id = 5a4a600e5557c0066af7f3a7
+  id = 3
+  deleted = False
+  type = user
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  user_image = 
+>
+10:57:55 csrf_tokens {'d546c5bf-1660-4e49-a804-e4b703296ad8': 3}
+10:58:01 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+10:58:04 current_user的id -> 3
+10:58:04 current_user -> <User: 
+  created_time = 2018-01-01 16:21:34
+  username = chandler
+  updated_time = 2018-01-01 16:21:34
+  _id = 5a4a600e5557c0066af7f3a7
+  id = 3
+  deleted = False
+  type = user
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  user_image = 
+>
+11:21:57 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+11:21:57 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+11:22:00 current_user的id -> 3
+11:22:00 current_user -> <User: 
+  id = 3
+  username = chandler
+  created_time = 2018-01-01 16:21:34
+  deleted = False
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  updated_time = 2018-01-01 16:21:34
+  user_image = 
+>
+11:22:03 current_user的id -> 3
+11:22:03 current_user -> <User: 
+  id = 3
+  username = chandler
+  created_time = 2018-01-01 16:21:34
+  deleted = False
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  updated_time = 2018-01-01 16:21:34
+  user_image = 
+>
+11:22:03 csrf_tokens {'41ba4747-a70e-4025-b861-6b8c1d893351': 3}
+11:22:08 current_user的id -> 3
+11:22:08 current_user -> <User: 
+  id = 3
+  username = chandler
+  created_time = 2018-01-01 16:21:34
+  deleted = False
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  updated_time = 2018-01-01 16:21:34
+  user_image = 
+>
+11:22:54 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+11:22:54 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+11:22:57 current_user的id -> 3
+11:22:57 current_user -> <User: 
+  id = 3
+  username = chandler
+  created_time = 2018-01-01 16:21:34
+  deleted = False
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  updated_time = 2018-01-01 16:21:34
+  user_image = fallen-leaf-art-japan-19-585117eb4b0dd__700.jpg
+>
+11:23:24 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+11:23:24 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+11:23:27 current_user的id -> 3
+11:23:27 current_user -> <User: 
+  id = 3
+  username = chandler
+  created_time = 2018-01-01 16:21:34
+  deleted = False
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  updated_time = 2018-01-01 16:21:34
+  user_image = 1478800706828.png
+>
+11:23:30 current_user的id -> 3
+11:23:30 current_user -> <User: 
+  id = 3
+  username = chandler
+  created_time = 2018-01-01 16:21:34
+  deleted = False
+  type = user
+  _id = 5a4a600e5557c0066af7f3a7
+  role = admin
+  password = 206e547e4cfc428ceaa88a8f96f6bd6fb5288e563fbb255302ae22dbe4e0d6aa
+  updated_time = 2018-01-01 16:21:34
+  user_image = 1478800706828.png
+>
+11:23:30 csrf_tokens {'cf99fe1d-a87f-4942-bd89-2b115185d0b7': 3}
+11:23:34 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+11:23:35 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+11:23:38 current_user的id -> -1
+11:23:38 current_user -> None
+11:23:39 index 的 request -> <Request 'http://www.9ycc.cc:2000/signin' [GET]>
+11:23:43 用户登录的form -> ImmutableMultiDict([('username', 'w'), ('password', 'w')])
+11:23:43 登录用户验证 -> ImmutableMultiDict([('username', 'w'), ('password', 'w')])
+11:24:11 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+11:24:11 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+11:24:14 current_user的id -> -1
+11:24:14 current_user -> None
+11:24:15 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+11:24:15 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+11:24:18 current_user的id -> -1
+11:24:18 current_user -> None
+11:24:21 index 的 request -> <Request 'http://www.9ycc.cc:2000/signin' [GET]>
+11:24:25 用户登录的form -> ImmutableMultiDict([('username', '12313'), ('password', '12312321')])
+11:24:25 登录用户验证 -> ImmutableMultiDict([('username', '12313'), ('password', '12312321')])
+11:25:10 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+11:25:10 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+11:25:13 current_user的id -> -1
+11:25:13 current_user -> None
+11:25:43 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+11:25:44 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+11:25:47 current_user的id -> -1
+11:25:47 current_user -> None
+11:25:57 index 的 request -> <Request 'http://www.9ycc.cc:2000/signup' [GET]>
+11:26:18 index 的 request -> <Request 'http://www.9ycc.cc:2000/signup' [GET]>
+11:26:28 index 的 request -> <Request 'http://www.9ycc.cc:2000/signin' [GET]>
+11:26:32 注册的用户form -> ImmutableMultiDict([('username', 'yinchuchu'), ('password', 'chuchu')])
+11:26:32 index 的 request -> <Request 'http://www.9ycc.cc:2000/signin' [GET]>
+11:26:39 用户登录的form -> ImmutableMultiDict([('username', 'yinchuchu'), ('password', 'chuchu')])
+11:26:39 登录用户验证 -> ImmutableMultiDict([('username', 'yinchuchu'), ('password', 'chuchu')])
+11:26:40 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+11:26:43 current_user的id -> 4
+11:26:43 current_user -> <User: 
+  id = 4
+  username = yinchuchu
+  created_time = 2018-01-02 11:26:32
+  deleted = False
+  type = user
+  _id = 5a4b6c685557c00eebe433f9
+  role = user
+  password = 16db032288b1e25c20d62dd062d054c038c423dfab5c85ca6027fb4cb9482574
+  updated_time = 2018-01-02 11:26:32
+  user_image = 
+>
+11:26:48 current_user的id -> 4
+11:26:48 current_user -> <User: 
+  id = 4
+  username = yinchuchu
+  created_time = 2018-01-02 11:26:32
+  deleted = False
+  type = user
+  _id = 5a4b6c685557c00eebe433f9
+  role = user
+  password = 16db032288b1e25c20d62dd062d054c038c423dfab5c85ca6027fb4cb9482574
+  updated_time = 2018-01-02 11:26:32
+  user_image = 
+>
+11:26:48 csrf_tokens {'e8620971-5477-411b-85cc-b3a5cae90695': 4, 'cf99fe1d-a87f-4942-bd89-2b115185d0b7': 3}
+11:26:51 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+11:26:51 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+11:26:54 current_user的id -> 4
+11:26:54 current_user -> <User: 
+  id = 4
+  username = yinchuchu
+  created_time = 2018-01-02 11:26:32
+  deleted = False
+  type = user
+  _id = 5a4b6c685557c00eebe433f9
+  role = user
+  password = 16db032288b1e25c20d62dd062d054c038c423dfab5c85ca6027fb4cb9482574
+  updated_time = 2018-01-02 11:26:32
+  user_image = 
+>
+11:27:21 add form -> ImmutableMultiDict([('board_id', '3'), ('content', 'Django'), ('title', 'Django')])
+11:27:21 current_user的id -> 4
+11:27:21 current_user -> <User: 
+  id = 4
+  username = yinchuchu
+  created_time = 2018-01-02 11:26:32
+  deleted = False
+  type = user
+  _id = 5a4b6c685557c00eebe433f9
+  role = user
+  password = 16db032288b1e25c20d62dd062d054c038c423dfab5c85ca6027fb4cb9482574
+  updated_time = 2018-01-02 11:26:32
+  user_image = 
+>
+11:27:21 current_user的id -> 4
+11:27:21 current_user -> <User: 
+  id = 4
+  username = yinchuchu
+  created_time = 2018-01-02 11:26:32
+  deleted = False
+  type = user
+  _id = 5a4b6c685557c00eebe433f9
+  role = user
+  password = 16db032288b1e25c20d62dd062d054c038c423dfab5c85ca6027fb4cb9482574
+  updated_time = 2018-01-02 11:26:32
+  user_image = 
+>
+11:27:21 csrf_tokens {'6fc09d32-bfa0-4ed5-b13c-8b860f0cd6b1': 4, 'e8620971-5477-411b-85cc-b3a5cae90695': 4, 'cf99fe1d-a87f-4942-bd89-2b115185d0b7': 3}
+11:27:23 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+11:27:23 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+11:27:26 current_user的id -> 4
+11:27:26 current_user -> <User: 
+  id = 4
+  username = yinchuchu
+  created_time = 2018-01-02 11:26:32
+  deleted = False
+  type = user
+  _id = 5a4b6c685557c00eebe433f9
+  role = user
+  password = 16db032288b1e25c20d62dd062d054c038c423dfab5c85ca6027fb4cb9482574
+  updated_time = 2018-01-02 11:26:32
+  user_image = 
+>
+11:28:00 index 的 request -> <Request 'http://www.9ycc.cc:2000/' [GET]>
+11:28:00 request -> <Request 'http://www.9ycc.cc:2000/topic/' [GET]>
+11:28:03 current_user的id -> -1
+11:28:03 current_user -> None
+11:28:06 current_user的id -> -1
+11:28:06 current_user -> None
+11:28:06 csrf_tokens {'0c9d39fc-af22-4422-90c1-73109c7fccd6': None}
